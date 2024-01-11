@@ -26,7 +26,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
 		let mm = gsap.matchMedia()
 
-		mm.add('(max-width: 768px)', () => {
+		mm.add('(max-width: 48rem)', () => {
 			resTop =
 				main === 'main' ? '32.58vw' : main === 'second' ? '27.2vw' : '25.2vw'
 		})

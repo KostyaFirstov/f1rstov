@@ -7,7 +7,7 @@
 	justify-content: space-between;
 	z-index: 1000;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 48rem) {
 		top: 1.2vw;
 	}
 }

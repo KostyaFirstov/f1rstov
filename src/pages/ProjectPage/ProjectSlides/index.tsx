@@ -16,7 +16,7 @@ const ProjectSlides = () => {
 		// let currentHeight = '100vh'
 		// let mm = gsap.matchMedia()
 
-		// mm.add('(max-width: 768px)', () => {
+		// mm.add('(max-width: 48rem)', () => {
 		// 	currentHeight = '100vh'
 		// })
 
