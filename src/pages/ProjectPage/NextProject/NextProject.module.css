@@ -1,0 +1,37 @@
+.headline {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.98vw;
+
+	@media screen and (max-width: 767px) {
+		flex-direction: column;
+	}
+}
+
+.desc {
+	font-size: 1.04vw;
+
+	@media screen and (max-width: 767px) {
+		font-size: 2.8vw;
+	}
+}
+
+.name {
+	/* font-size: var(--fzSubTitle); */
+	font-size: 3.33vw;
+	font-family: var(--title-font);
+	display: flex;
+	align-items: center;
+	gap: 1.56vw;
+
+	@media screen and (max-width: 767px) {
+		font-size: 7.4vw;
+	}
+}
+
+.image {
+	border-radius: var(--radius);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

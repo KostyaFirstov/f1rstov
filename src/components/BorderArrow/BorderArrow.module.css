@@ -1,0 +1,28 @@
+.root svg {
+	width: 6.16vw;
+	height: 6.16vw;
+
+	@media screen and (max-width: 767px) {
+		width: 11.16vw;
+		height: 11.16vw;
+	}
+}
+
+.root {
+	margin-left: 1.25vw;
+}
+
+.root__small,
+.root__small svg {
+	width: 3.76vw;
+	height: 3.76vw;
+
+	@media screen and (max-width: 767px) {
+		width: 10.16vw;
+		height: 10.16vw;
+	}
+}
+
+.root__white path {
+	fill: #fff;
+}

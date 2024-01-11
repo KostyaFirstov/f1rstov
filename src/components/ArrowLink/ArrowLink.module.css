@@ -1,0 +1,18 @@
+.social__link {
+	display: flex;
+	align-items: center;
+}
+
+.social__link a {
+	display: flex;
+	justify-self: start;
+	font-size: 1vw;
+}
+
+.social__link:hover .arrow__top {
+	transform: translate(50%, -100%);
+}
+
+.social__link:hover .arrow__bottom {
+	transform: translate(0%, 0%);
+}

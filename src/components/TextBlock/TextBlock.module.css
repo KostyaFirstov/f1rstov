@@ -1,0 +1,111 @@
+.desc {
+	color: var(--gray-color);
+	font-size: 1vw;
+
+	@media screen and (max-width: 767px) {
+		font-size: 2.42vw;
+	}
+}
+
+.title,
+.title_small {
+	font-family: var(--title-font);
+	line-height: 122.94%;
+	display: flex;
+}
+
+.title {
+	font-size: 5vw;
+}
+
+.title_small {
+	font-size: 3.6vw;
+}
+
+.title span,
+.title_small span {
+	color: var(--gray-color);
+}
+
+.leftside {
+	max-width: 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	padding-top: 0.88vw;
+}
+
+.item__link {
+	display: flex;
+	align-self: flex-start;
+}
+
+.text,
+.subText {
+	font-size: 1vw;
+}
+
+.list__item {
+	font-size: 1vw;
+	margin-bottom: 0.32vw;
+}
+
+.list__item:last-of-type {
+	margin-bottom: 0;
+}
+
+.rootMobile {
+	display: none;
+}
+
+.leftsideMobile {
+	margin-top: 4.52vw;
+}
+
+.leftsideMobile .text {
+	max-width: 60vw;
+}
+
+.leftsideMobile .subText {
+	display: inline-block;
+}
+
+.rootMobile .title {
+	font-size: 8vw;
+}
+
+.rootMobile .title_small {
+	font-size: 5.6vw;
+}
+
+.leftsideMobile .list {
+	display: flex;
+	gap: 1.2vw;
+}
+
+.leftsideMobile .desc {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.leftsideMobile .links,
+.leftsideMobile .subText {
+	margin-top: 2.82vw;
+}
+
+@media screen and (max-width: 767px) {
+	.root {
+		display: none;
+	}
+
+	.rootMobile {
+		display: block;
+	}
+
+	.text,
+	.subText,
+	.list__item {
+		font-size: 2.42vw;
+	}
+}

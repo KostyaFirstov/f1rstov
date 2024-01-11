@@ -1,0 +1,30 @@
+.root {
+	position: sticky;
+	top: 0.63vw;
+	padding: 0 var(--side-padding);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+
+	@media screen and (max-width: 767px) {
+		top: 1.2vw;
+	}
+}
+
+.header__item {
+	flex: 1;
+}
+
+.header__item:nth-child(2) {
+	text-align: center;
+}
+
+.header__item:nth-child(3) {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header__item_inner {
+	display: inline-block;
+}

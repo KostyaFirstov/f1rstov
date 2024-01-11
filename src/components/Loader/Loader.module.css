@@ -1,0 +1,15 @@
+.outer {
+	overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+	align-items: flex-end;
+	transform: scale(0.5) translateX(0);
+	transform-origin: top center;
+}
+
+.item {
+	flex-shrink: 0;
+	width: 100vw;
+}

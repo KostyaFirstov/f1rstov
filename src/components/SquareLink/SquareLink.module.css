@@ -1,0 +1,43 @@
+.link,
+.link_black {
+	min-width: 11.04vw;
+	min-height: 11.04vw;
+	border-radius: var(--radius);
+	display: flex;
+	align-self: flex-end;
+	align-items: flex-end;
+	justify-content: space-between;
+	background: rgba(255, 255, 255, 0.3);
+	padding: 1.04vw;
+	font-size: 1vw;
+	position: relative;
+
+	@media screen and (max-width: 767px) {
+		font-size: 2.82vw;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.link span,
+.link_black span {
+	position: absolute;
+	top: 1vw;
+	right: 1vw;
+}
+
+.link svg,
+.link_black svg {
+	width: 0.96vw;
+	height: 0.96vw;
+
+	@media screen and (max-width: 767px) {
+		width: 2.4vw;
+		height: 2.4vw;
+	}
+}
+
+.link {
+	background: rgba(10, 10, 10, 0.3);
+	backdrop-filter: blur(8px);
+}

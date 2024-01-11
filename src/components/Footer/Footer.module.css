@@ -1,0 +1,144 @@
+.root {
+	padding-top: var(--content-padding);
+}
+
+.footer__wrapper,
+.footer__wrapper_mobile {
+	background-color: var(--black-color);
+	padding: 4.58vw 0;
+	color: #fff;
+}
+
+.footer__wrapper {
+	border-radius: var(--radius);
+}
+
+.footer__wrapper_mobile {
+	display: none;
+	border-radius: 2.8vw;
+}
+
+.footer__item {
+	margin-bottom: 5.22vw;
+}
+
+.footer__item:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__item:last-of-type > div {
+	align-items: flex-end;
+}
+
+.footer__links {
+	margin-bottom: 1.26vw;
+}
+
+.footer__link {
+	display: flex;
+	margin-bottom: 0.64vw;
+}
+.footer__link:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__item_header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.footer__btn {
+	text-align: left;
+}
+
+.footer__squarelinks {
+	display: flex;
+	gap: 1.34vw;
+}
+
+.footer__bottom {
+	color: #fff;
+	padding: 0 var(--side-padding);
+	position: relative;
+	margin: 4.18vw 0;
+}
+
+.footer__squarelink,
+.footer__squarelink a {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 26vw;
+	height: 20vw;
+}
+
+.footer__bottom svg {
+	width: 100%;
+}
+
+.footer__privacy {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 var(--side-padding) 0.94vw;
+}
+
+.footer__privacy_item {
+	flex: 1;
+	display: flex;
+}
+
+.footer__privacy_item:nth-child(2) {
+	justify-content: center;
+}
+.footer__privacy_item:nth-child(3) {
+	justify-content: flex-end;
+}
+
+.footer__btn,
+.footer__time span {
+	/* font-size: var(--fzNormall); */
+	font-size: 6.66vw;
+}
+
+.footer__time {
+	font-size: 0.82vw;
+}
+
+.footer__btn span {
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+	.footer__wrapper {
+		display: none;
+	}
+
+	.footer__wrapper_mobile {
+		display: block;
+	}
+
+	.footer__btn {
+		font-size: 11.66vw;
+	}
+
+	.footer__item_footer {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 7.04vw;
+	}
+
+	.footer__links {
+		margin-bottom: 0;
+	}
+
+	.footer__squarelinks {
+		flex-basis: 80%;
+	}
+
+	.footer__privacy a {
+		font-size: 2.2vw;
+	}
+}

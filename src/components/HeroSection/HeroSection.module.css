@@ -1,0 +1,44 @@
+.root {
+	padding: 3.92vw 0 0;
+	z-index: 2;
+	height: 100vh;
+
+	@media screen and (max-width: 767px) {
+		padding: 6.92vw 0 0;
+	}
+}
+
+.title,
+.title_small,
+.title_smaller {
+	font-family: var(--title-font);
+	line-height: 98%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.title__wrapper {
+	position: relative;
+	z-index: 5;
+	width: 100vw;
+}
+
+.title {
+	font-size: 22.6vw;
+
+	@media screen and (max-width: 767px) {
+		font-size: 23.6vw;
+	}
+}
+
+.title_small {
+	font-size: 16vw;
+
+	@media screen and (max-width: 767px) {
+		font-size: 17.4vw;
+	}
+}
+
+.title_smaller {
+	font-size: 13.65vw;
+}
