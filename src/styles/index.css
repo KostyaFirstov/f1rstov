@@ -24,7 +24,7 @@
 .radius {
 	border-radius: var(--radius);
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		border-radius: 2.8vw;
 	}
 }
@@ -107,7 +107,7 @@ body {
 	object-fit: cover;
 	border-radius: var(--radius);
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		border-radius: 2.8vw;
 	}
 }
@@ -121,7 +121,7 @@ body {
 @media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.container__grid {
 		flex-direction: column;
 	}

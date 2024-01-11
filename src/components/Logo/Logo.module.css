@@ -1,7 +1,7 @@
 .root {
 	font-size: 1.88vw;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		font-size: 4.82vw;
 	}
 }

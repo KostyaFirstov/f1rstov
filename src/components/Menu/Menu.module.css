@@ -8,7 +8,7 @@
 	transition: var(--main-transition);
 	font-size: 1vw;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		font-size: 2.82vw;
 	}
 }
@@ -16,7 +16,7 @@
 .menu__btn_active {
 	transform: translate(-1vw, 18px);
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		transform: translate(-4.8vw, 3.8vw);
 	}
 }
@@ -26,7 +26,7 @@
 	height: 2.29vw;
 	transition: var(--smooth-transition);
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		width: 5.29vw;
 		height: 5.29vw;
 	}
@@ -90,7 +90,7 @@
 	opacity: 0;
 	visibility: hidden;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		margin: unset;
 		padding: 4.46vw 6.68vw 6.68vw;
 		max-width: 100%;
@@ -111,7 +111,7 @@
 .menu__links {
 	margin: 2vw 0;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		margin: 10vw 0;
 	}
 }
@@ -120,7 +120,7 @@
 	margin-bottom: 0.64vw;
 	font-size: var(--fzName);
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		margin-bottom: 3.64vw;
 	}
 }
@@ -143,7 +143,7 @@
 	color: var(--gray-color);
 	font-size: 0.83vw;
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 768px) {
 		/* font-size: 2.42vw; */
 		font-size: 2.82vw;
 	}
