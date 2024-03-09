@@ -1,38 +1,37 @@
 .options {
 	display: flex;
 	align-items: center;
-	gap: 0.52vw;
+	gap: clamp(8px, 0.52vw, 0.52vw);
 	margin-top: 1.25vw;
-
-	@media screen and (max-width: 768px) {
-		flex-direction: column;
-		row-gap: 2.08vw;
-		flex-wrap: wrap;
-		width: 100%;
-	}
 }
 
 .option,
 .option_active {
-	/* font-size: var(--fzDesc); */
-	font-size: 1.04vw;
-	padding: 0.84vw 2.2vw;
+	font-size: var(--fzDesc);
+	padding: clamp(14px, 0.84vw, 0.84vw) clamp(14px, 2.2vw, 2.2vw);
 	border-radius: var(--radius);
 	color: var(--gray-color);
 	border: 1px solid var(--gray-color);
 	cursor: pointer;
 	font-family: var(--title-font);
 	transition: var(--main-transition);
-
-	@media screen and (max-width: 768px) {
-		font-size: 2.8vw;
-		border-radius: 4vw;
-		padding: 3.4vw;
-		width: 100%;
-	}
 }
 
 .option_active {
 	color: #fff;
 	background-color: var(--black-color);
+}
+
+@media screen and (max-width: 768px) {
+	.options {
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.option,
+	.option_active {
+		border-radius: 4vw;
+		width: 100%;
+	}
 }

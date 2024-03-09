@@ -2,11 +2,6 @@
 	padding: 3.92vw 0 0;
 	z-index: 2;
 	height: 100vh;
-
-	@media screen and (max-width: 768px) {
-		padding: 6.92vw 0 0;
-		height: auto;
-	}
 }
 
 .title,
@@ -34,4 +29,11 @@
 
 .title_smaller {
 	font-size: var(--fzTitleSmall);
+}
+
+@media screen and (max-width: 768px) {
+	.root {
+		padding: 6.92vw 0 0;
+		height: auto;
+	}
 }

@@ -6,7 +6,6 @@
 .social__link a {
 	display: flex;
 	justify-self: start;
-	font-size: 1vw;
 }
 
 .social__link:hover .arrow__top {

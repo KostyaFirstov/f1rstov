@@ -26,13 +26,6 @@
 	font-size: var(--fzTitleBlockSmall);
 	font-family: var(--title-font);
 	min-height: 16.15vw;
-
-	@media screen and (max-width: 1240px) {
-		flex-direction: column;
-		align-items: flex-start;
-		min-height: 14vw;
-		padding: 18px 0;
-	}
 }
 
 .item:first-of-type::before,
@@ -75,6 +68,13 @@
 }
 
 @media screen and (max-width: 1240px) {
+	.item {
+		flex-direction: column;
+		align-items: flex-start;
+		min-height: 14vw;
+		padding: 18px 0;
+	}
+
 	.item__right {
 		margin-top: 24px;
 	}

@@ -119,9 +119,6 @@ body {
 	height: 100vh;
 }
 
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 768px) {
 	.container__grid {
 		flex-direction: column;
@@ -131,10 +128,4 @@ body {
 		position: relative;
 		height: 100vw;
 	}
-}
-
-@media screen and (max-width: 568px) {
-}
-
-@media screen and (max-width: 400px) {
 }
