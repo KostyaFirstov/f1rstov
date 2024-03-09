@@ -49,13 +49,17 @@ const Contacts = () => {
 
 	return (
 		<Transition>
-			<HeroSection title='КОНТАКТЫ' main='second' img='/images/imgBlock.jpg' />
+			<HeroSection
+				title='КОНТАКТЫ'
+				main='second'
+				img='../images/herosection-bg.jpg'
+			/>
 			<TextBlock
-				title={
+				title='
 					<h2>
 						Давайте <span>объединимся</span> и <span>сотворим</span> волшебство!
 					</h2>
-				}
+				'
 				links={[
 					{ path: '/Whatsapp', name: 'Whatsapp' },
 					{ path: '/Telegram', name: 'Telegram' },

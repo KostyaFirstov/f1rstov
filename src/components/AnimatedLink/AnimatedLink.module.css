@@ -35,19 +35,15 @@
 }
 
 .link__wrapper {
-	font-size: 2.4vw;
+	font-size: clamp(36px, 2.4vw, 2.4vw);
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 8vw;
 	}
 }
 
 .link__wrapper_small {
-	font-size: 1vw;
-
-	@media screen and (max-width: 48rem) {
-		font-size: 2.82vw;
-	}
+	font-size: var(--fzDesc);
 }
 
 .link :hover .arrow__top {
@@ -79,13 +75,8 @@
 
 .arrow,
 .arrow span {
-	width: 0.96vw;
-	height: 0.96vw;
-
-	@media screen and (max-width: 48rem) {
-		width: 2.4vw;
-		height: 2.4vw;
-	}
+	width: clamp(14px, 0.96vw, 0.96vw);
+	height: clamp(14px, 0.96vw, 0.96vw);
 }
 
 .arrow svg {

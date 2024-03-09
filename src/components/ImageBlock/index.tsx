@@ -17,7 +17,7 @@ const ImageBlock: React.FC<IImageBlock> = ({ src, alt }) => {
 	useEffect(() => {
 		let mm = gsap.matchMedia()
 
-		mm.add('(min-width: 48rem)', () => {
+		mm.add('(min-width: 768px)', () => {
 			gsap
 				.timeline({
 					scrollTrigger: {

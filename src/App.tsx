@@ -10,6 +10,7 @@ import Contacts from './pages/Contacts'
 import Gallery from './pages/Gallery'
 import ProjectPage from './pages/ProjectPage'
 import { AnimatePresence, MotionValue, useSpring } from 'framer-motion'
+import projects from './assets/projects.json'
 
 interface IMouseMove {
 	mousePosition: {
@@ -52,7 +53,13 @@ function App() {
 						<Route path='/' element={<MainLayout />}>
 							<Route path='/' element={<Home />} />
 							<Route path='/projects' element={<Projects />} />
-							<Route path='/projects/*' element={<ProjectPage />} />
+							{projects.map(project => (
+								<Route
+									key={project.id}
+									path={`/projects/${project.pageLink}`}
+									element={<ProjectPage {...project} />}
+								/>
+							))}
 							<Route path='/about' element={<About />} />
 							<Route path='/gallery' element={<Gallery />} />
 							<Route path='/contacts' element={<Contacts />} />

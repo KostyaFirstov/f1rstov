@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 interface HeroSectionProps {
 	main?: 'main' | 'second' | 'third'
 	title: string
-	img?: string
+	img: string
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({
@@ -26,49 +26,51 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
 		let mm = gsap.matchMedia()
 
-		mm.add('(max-width: 48rem)', () => {
+		mm.add('(max-width: 768px)', () => {
 			resTop =
 				main === 'main' ? '32.58vw' : main === 'second' ? '27.2vw' : '25.2vw'
 		})
 
-		let tl = gsap.timeline({
-			scrollTrigger: {
-				trigger: block,
-				start: 'top top',
-				scrub: 1,
-				pin: true,
-				pinSpacing: true,
-				invalidateOnRefresh: true
-			}
+		mm.add('(min-width: 768px)', () => {
+			let tl = gsap.timeline({
+				scrollTrigger: {
+					trigger: block,
+					start: 'top top',
+					scrub: 1,
+					pin: true,
+					pinSpacing: true,
+					invalidateOnRefresh: true
+				}
+			})
+
+			tl.to(qBlocks('h1'), {
+				opacity: 0,
+				y: -100,
+				duration: 1.6,
+				ease: 'expo.inOut'
+			})
+
+			tl.fromTo(
+				qBlocks('.hero__image'),
+				{ top: resTop },
+				{
+					top: 0,
+					duration: 4
+				},
+				'-0.05'
+			)
+
+			tl.fromTo(
+				qBlocks('.hero__image img'),
+				{ width: '92vw' },
+				{
+					width: '100vw',
+					borderRadius: 0,
+					duration: 4
+				},
+				'-0.05'
+			)
 		})
-
-		tl.to(qBlocks('h1'), {
-			opacity: 0,
-			y: -100,
-			duration: 1.6,
-			ease: 'expo.inOut'
-		})
-
-		tl.fromTo(
-			qBlocks('.hero__image'),
-			{ top: resTop },
-			{
-				top: 0,
-				duration: 4
-			},
-			'-0.05'
-		)
-
-		tl.fromTo(
-			qBlocks('.hero__image img'),
-			{ width: '92vw' },
-			{
-				width: '100vw',
-				borderRadius: 0,
-				duration: 4
-			},
-			'-0.05'
-		)
 	}, [])
 
 	return (
@@ -89,7 +91,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 						</h1>
 					</div>
 					<div className='hero__image'>
-						<img src='../images/herosection-bg.jpg' alt='#' />
+						<img src={img} alt={title} />
 					</div>
 				</div>
 			</div>

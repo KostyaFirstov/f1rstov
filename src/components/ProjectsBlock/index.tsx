@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { Link } from 'react-router-dom'
 import BorderArrow from '../BorderArrow'
+import projects from '../../assets/projects.json'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -40,27 +41,21 @@ const ProjectsBlock = () => {
 	return (
 		<div className={styles.root}>
 			<div className={styles.items} ref={projectsRef}>
-				<ProjectCard
-					name='ViteksStone'
-					services={['Разработка', 'Дизайн', 'Наполнение']}
-					imageSrc='/images/project01.jpg'
-					date='2024'
-					full={true}
-				/>
-				<ProjectCard
-					name='ViteksStone'
-					services={['Разработка', 'Дизайн', 'Наполнение']}
-					imageSrc='/images/project01.jpg'
-					date='2024'
-					full={true}
-				/>
-				<ProjectCard
-					name='ViteksStone'
-					services={['Разработка', 'Дизайн', 'Наполнение']}
-					imageSrc='/images/project01.jpg'
-					date='2024'
-					full={true}
-				/>
+				{projects.map((project, i) => {
+					if (i > 3) return null
+
+					return (
+						<ProjectCard
+							key={project.id}
+							pageLink={project.pageLink}
+							name={project.name}
+							services={project.services}
+							imageSrc={project.preview}
+							date={project.date}
+							full={true}
+						/>
+					)
+				})}
 				<Link to='/projects' className={styles.more}>
 					<h2 className={styles.title}>
 						Смотреть <br /> все проекты
@@ -69,27 +64,21 @@ const ProjectsBlock = () => {
 				</Link>
 			</div>
 			<div className={styles.itemsMobile}>
-				<ProjectCard
-					name='ViteksStone'
-					services={['Разработка', 'Дизайн', 'Наполнение']}
-					imageSrc='/images/project01.jpg'
-					date='2024'
-					full={false}
-				/>
-				<ProjectCard
-					name='ViteksStone'
-					services={['Разработка', 'Дизайн', 'Наполнение']}
-					imageSrc='/images/project01.jpg'
-					date='2024'
-					full={false}
-				/>
-				<ProjectCard
-					name='ViteksStone'
-					services={['Разработка', 'Дизайн', 'Наполнение']}
-					imageSrc='/images/project01.jpg'
-					date='2024'
-					full={false}
-				/>
+				{projects.map((project, i) => {
+					if (i === 3) return null
+
+					return (
+						<ProjectCard
+							key={project.id}
+							pageLink={project.pageLink}
+							name={project.name}
+							services={project.services}
+							imageSrc={project.preview}
+							date={project.date}
+							full={false}
+						/>
+					)
+				})}
 			</div>
 		</div>
 	)

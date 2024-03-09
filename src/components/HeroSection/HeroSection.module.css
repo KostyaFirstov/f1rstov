@@ -3,8 +3,9 @@
 	z-index: 2;
 	height: 100vh;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		padding: 6.92vw 0 0;
+		height: auto;
 	}
 }
 
@@ -24,21 +25,13 @@
 }
 
 .title {
-	font-size: 22.6vw;
-
-	@media screen and (max-width: 48rem) {
-		font-size: 23.6vw;
-	}
+	font-size: var(--fzTitleBig);
 }
 
 .title_small {
-	font-size: 16vw;
-
-	@media screen and (max-width: 48rem) {
-		font-size: 17.4vw;
-	}
+	font-size: var(--fzTitleMedium);
 }
 
 .title_smaller {
-	font-size: 13.65vw;
+	font-size: var(--fzTitleSmall);
 }

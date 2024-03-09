@@ -11,15 +11,19 @@ const About = () => {
 
 	return (
 		<Transition>
-			<HeroSection title='ОБО МНЕ' main='second' />
+			<HeroSection
+				title='ОБО МНЕ'
+				main='second'
+				img='../images/herosection-bg.jpg'
+			/>
 			<TextBlock
 				text='В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день.'
-				title={
+				title='
 					<h2>
 						Меня зовут <span>Константин Фирстов</span>, родился и живу
 						в&nbsp;Москве
 					</h2>
-				}
+				'
 				subText='20 лет'
 			/>
 			<ImageBlock src='/images/imgBlock.jpg' alt='#' />

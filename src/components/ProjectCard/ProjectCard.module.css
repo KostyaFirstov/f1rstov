@@ -26,7 +26,7 @@
 	color: #fff;
 	padding: 2.08vw var(--side-padding) 5.2vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		padding: 2.08vw var(--side-padding) 7.2vw;
 	}
 }
@@ -35,7 +35,7 @@
 	height: 100%;
 	top: 2.08vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		top: 4.08vw;
 	}
 }
@@ -45,7 +45,7 @@
 	font-family: var(--title-font);
 	font-size: 3.33vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 7.4vw;
 	}
 }
@@ -54,7 +54,7 @@
 	display: flex;
 	gap: 0.8vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		gap: 1.4vw;
 	}
 }
@@ -65,7 +65,7 @@
 	border-radius: var(--radius);
 	font-size: 1.04vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 2.8vw;
 		border-radius: 2.8vw;
 		padding: 1.4vw 2.6vw;
@@ -85,7 +85,7 @@
 .date {
 	font-size: 1.88vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 3.88vw;
 	}
 }
@@ -115,7 +115,7 @@
 	}
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
 	.root_small {
 		height: 100vw;
 	}

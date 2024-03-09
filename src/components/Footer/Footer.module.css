@@ -98,7 +98,6 @@
 
 .footer__btn,
 .footer__time span {
-	/* font-size: var(--fzNormall); */
 	font-size: 6.66vw;
 }
 
@@ -111,7 +110,7 @@
 	align-items: center;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
 	.footer__wrapper {
 		display: none;
 	}

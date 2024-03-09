@@ -7,7 +7,7 @@
 	align-items: center;
 	gap: 1.25vw;
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
 	.input {
 		flex-direction: column;
 		align-items: flex-start;
@@ -22,7 +22,7 @@
 	font-family: var(--title-font);
 	flex-shrink: 0;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 6.4vw;
 	}
 }
@@ -31,12 +31,12 @@
 	font-size: 1.04vw;
 	/* font-family: var(--usual-font); */
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 2.8vw;
 	}
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
 	.input input::placeholder {
 		font-size: 4.4vw;
 		text-align: left;
@@ -51,7 +51,7 @@
 	width: 100%;
 	border-bottom: 1px solid var(--gray-color);
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		font-size: 4.4vw;
 		text-align: left;
 		padding: 2.12vw 0 3vw;
@@ -69,7 +69,7 @@
 	/* font-size: var(--fzDesc); */
 	font-size: 1.04vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		padding: 3.4vw;
 		font-size: 2.8vw;
 		border-radius: 2.8vw;

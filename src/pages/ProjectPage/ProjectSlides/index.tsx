@@ -5,7 +5,11 @@ import { ScrollTrigger } from 'gsap/all'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const ProjectSlides = () => {
+interface IProjectSlides {
+	images: string[]
+}
+
+const ProjectSlides: React.FC<IProjectSlides> = ({ images }) => {
 	const blockRef = React.useRef<HTMLDivElement>(null)
 	const wrapperTopRef = React.useRef<HTMLDivElement>(null)
 	const wrapperBottomRef = React.useRef<HTMLDivElement>(null)
@@ -13,13 +17,6 @@ const ProjectSlides = () => {
 	const qBlocks = gsap.utils.selector(blockRef)
 
 	React.useEffect(() => {
-		// let currentHeight = '100vh'
-		// let mm = gsap.matchMedia()
-
-		// mm.add('(max-width: 48rem)', () => {
-		// 	currentHeight = '100vh'
-		// })
-
 		let tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: blockRef.current,
@@ -60,68 +57,26 @@ const ProjectSlides = () => {
 	return (
 		<div ref={blockRef} className={styles.root}>
 			<div ref={wrapperTopRef} className={styles.wrapper_top}>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
+				{images.map((image, i) => {
+					if (i > 4) return null
+
+					return (
+						<div key={i} className={styles.item}>
+							<img src={image} alt='' />
+						</div>
+					)
+				})}
 			</div>
 			<div ref={wrapperBottomRef} className={styles.wrapper_bottom}>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
-				<div className={styles.item}>
-					<img src='/images/project01.jpg' alt='' />
-				</div>
+				{images.map((image, i) => {
+					if (i < 4) return null
+
+					return (
+						<div key={i} className={styles.item}>
+							<img src={image} alt='' />
+						</div>
+					)
+				})}
 			</div>
 		</div>
 	)

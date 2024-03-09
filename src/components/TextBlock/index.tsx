@@ -56,17 +56,19 @@ const TextBlock: React.FC<TextBlockProps> = ({
 							</div>
 						</div>
 						<div className='container__item'>
-							<div className={main ? styles.title : styles.title_small}>
-								{title}
-							</div>
+							<div
+								dangerouslySetInnerHTML={{ __html: title as string }}
+								className={main ? styles.title : styles.title_small}
+							/>
 						</div>
 					</div>
 				</div>
 				<div className={styles.rootMobile}>
 					<div className='container__item'>
-						<div className={main ? styles.title : styles.title_small}>
-							{title}
-						</div>
+						<div
+							dangerouslySetInnerHTML={{ __html: title as string }}
+							className={main ? styles.title : styles.title_small}
+						/>
 					</div>
 					<div className={styles.leftsideMobile}>
 						{desc && <span className={styles.desc}>{desc}</span>}

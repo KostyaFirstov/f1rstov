@@ -68,7 +68,7 @@ const Loader: React.FC<ILoader> = ({ pageFrom, currentPage }) => {
 
 	return (
 		<div className={styles.outer}>
-			<div ref={blockRef} className={styles.wrapper}>
+			{/* <div ref={blockRef} className={styles.wrapper}>
 				<div className={styles.item}>
 					<HeroSection title='FIRSTOV' />
 				</div>
@@ -78,7 +78,7 @@ const Loader: React.FC<ILoader> = ({ pageFrom, currentPage }) => {
 				<div className={styles.item}>
 					<HeroSection title='ОБО МНЕ' main='second' />
 				</div>
-			</div>
+			</div> */}
 		</div>
 	)
 }

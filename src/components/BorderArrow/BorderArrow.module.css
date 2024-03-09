@@ -2,7 +2,7 @@
 	width: 6.16vw;
 	height: 6.16vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		width: 11.16vw;
 		height: 11.16vw;
 	}
@@ -17,7 +17,7 @@
 	width: 3.76vw;
 	height: 3.76vw;
 
-	@media screen and (max-width: 48rem) {
+	@media screen and (max-width: 768px) {
 		width: 10.16vw;
 		height: 10.16vw;
 	}

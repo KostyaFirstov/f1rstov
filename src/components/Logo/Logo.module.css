@@ -1,7 +1,3 @@
 .root {
-	font-size: 1.88vw;
-
-	@media screen and (max-width: 48rem) {
-		font-size: 4.82vw;
-	}
+	font-size: clamp(20px, 1.88vw, 1.88vw);
 }

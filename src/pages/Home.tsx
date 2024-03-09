@@ -12,27 +12,23 @@ const Home = () => {
 
 	return (
 		<Transition>
-			<HeroSection title='FIRSTOV' />
+			<HeroSection title='FIRSTOV' img='../images/herosection-bg.jpg' />
 			<TextBlock
 				text='Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту.'
-				title={
-					<h2>
+				title='<h2>
 						UI/UX-<span>дизайнер</span> и Web-<span>разработчик</span>, создаю
 						креативные сайты
-					</h2>
-				}
+					</h2>'
 				links={[{ path: '/about', name: 'Узнать больше' }]}
 			/>
 			<ProjectsBlock />
 			<TextBlock
 				desc='Некоторые из клиентов:'
 				list={['ViteksStone', 'Эмеральд', 'ПрофМед', 'Останкино', 'Rockstar']}
-				title={
-					<h2>
+				title='<h2>
 						Более <span>40 созданных сайтов</span> с нуля, от&nbsp;идеи — до
 						реализации, каждый из&nbsp;проектов <span>уникальный</span>
-					</h2>
-				}
+					</h2>'
 				main={false}
 			/>
 			<ImageBlock src='/images/imgBlock.jpg' alt='#' />

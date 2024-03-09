@@ -7,6 +7,7 @@ interface IProjectCard {
 	services: string[]
 	date: string
 	imageSrc: string
+	pageLink: string
 	full: boolean
 }
 
@@ -15,11 +16,12 @@ const ProjectCard: React.FC<IProjectCard> = ({
 	services,
 	date,
 	imageSrc,
+	pageLink,
 	full
 }) => {
 	return (
 		<Link
-			to={'/projects/123'}
+			to={`/projects/${pageLink}`}
 			className={full ? styles.root : styles.root_small}
 		>
 			{full ? (
