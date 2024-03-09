@@ -9,10 +9,6 @@
 .root_small {
 	width: 50%;
 	height: 56vw;
-
-	@media screen and (max-width: 1024px) {
-		width: 100%;
-	}
 }
 
 .wrapper,
@@ -41,22 +37,13 @@
 }
 
 .name {
-	/* font-size: var(--fzTitleSmall); */
+	font-size: var(--fzTitleBlockSmall);
 	font-family: var(--title-font);
-	font-size: 3.33vw;
-
-	@media screen and (max-width: 768px) {
-		font-size: 7.4vw;
-	}
 }
 
 .services {
 	display: flex;
-	gap: 0.8vw;
-
-	@media screen and (max-width: 768px) {
-		gap: 1.4vw;
-	}
+	gap: clamp(6px, 0.8vw, 0.8vw);
 }
 
 .service__item {
@@ -83,11 +70,7 @@
 }
 
 .date {
-	font-size: 1.88vw;
-
-	@media screen and (max-width: 768px) {
-		font-size: 3.88vw;
-	}
+	font-size: var(--fzDesc);
 }
 
 .rightside {
@@ -111,6 +94,7 @@
 
 @media screen and (max-width: 1024px) {
 	.root_small {
+		width: 100%;
 		height: 56vw;
 	}
 }

@@ -72,13 +72,11 @@
 .item__right {
 	font-family: var(--usual-font);
 	flex-basis: 34%;
+}
 
-	@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1240px) {
+	.item__right {
 		margin-top: 24px;
-	}
-
-	@media screen and (max-width: 768px) {
-		margin-top: 14px;
 	}
 }
 
@@ -92,5 +90,11 @@
 	.item:hover .item__left,
 	.item:hover .item__right {
 		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.item__right {
+		margin-top: 14px;
 	}
 }

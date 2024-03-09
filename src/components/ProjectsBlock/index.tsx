@@ -65,7 +65,7 @@ const ProjectsBlock = () => {
 			</div>
 			<div className={styles.itemsMobile}>
 				{projects.map((project, i) => {
-					if (i === 3) return null
+					if (i > 3) return null
 
 					return (
 						<ProjectCard
