@@ -20,7 +20,7 @@ const NextProject: React.FC<INextProject> = ({ image, name, link }) => {
 						<BorderArrow />
 					</Link>
 				</div>
-				<Link to={link}>
+				<Link to={link} className={styles.link}>
 					<img className={styles.image} src={image} alt={name} />
 				</Link>
 			</div>

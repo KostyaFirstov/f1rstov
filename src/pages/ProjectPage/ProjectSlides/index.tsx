@@ -17,6 +17,15 @@ const ProjectSlides: React.FC<IProjectSlides> = ({ images }) => {
 	const qBlocks = gsap.utils.selector(blockRef)
 
 	React.useEffect(() => {
+		let mm = gsap.matchMedia()
+
+		let height = '100vh'
+		let resHeight = '46vh'
+		mm.add('(max-width: 768px)', () => {
+			height = '28vh'
+			resHeight = '28vh'
+		})
+
 		let tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: blockRef.current,
@@ -30,10 +39,10 @@ const ProjectSlides: React.FC<IProjectSlides> = ({ images }) => {
 
 		tl.fromTo(
 			qBlocks('div'),
-			{ width: '100vw', height: '100vh' },
+			{ width: '100vw', height: height },
 			{
 				width: '46vw',
-				height: '46vh'
+				height: resHeight
 			}
 		)
 

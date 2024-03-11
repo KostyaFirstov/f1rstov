@@ -6,9 +6,16 @@ import ProjectCard from '../../components/ProjectCard'
 import Transition from '../../transition'
 import useLocoScroll from '../../hooks/useLocoScroll'
 import projects from '../../assets/projects.json'
+import gsap from 'gsap'
 
 const Projects = () => {
 	useLocoScroll()
+	let mm = gsap.matchMedia()
+	let isMobile = false
+
+	mm.add('(max-width: 800px)', () => {
+		isMobile = true
+	})
 
 	return (
 		<Transition>
@@ -29,7 +36,7 @@ const Projects = () => {
 			<div className={styles.projects}>
 				{projects.map((project, i) => {
 					let isOdd = projects.length % 2 === 0 ? false : true
-					console.log(isOdd, projects.length, i)
+
 					return (
 						<ProjectCard
 							key={project.id}
@@ -38,7 +45,9 @@ const Projects = () => {
 							services={project.services}
 							imageSrc={project.preview}
 							date={project.date}
-							full={isOdd && projects.length - 1 === i ? true : false}
+							full={
+								isOdd && !isMobile && projects.length - 1 === i ? true : false
+							}
 						/>
 					)
 				})}

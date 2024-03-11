@@ -33,7 +33,11 @@
 
 @media screen and (max-width: 768px) {
 	.root {
-		padding: 6.92vw 0 0;
+		padding: 40px 0 0;
 		height: auto;
+	}
+
+	.title__wrapper {
+		margin-bottom: 16px;
 	}
 }

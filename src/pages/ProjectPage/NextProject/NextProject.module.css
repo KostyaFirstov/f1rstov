@@ -1,32 +1,20 @@
 .headline {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 1.98vw;
-
-	@media screen and (max-width: 768px) {
-		flex-direction: column;
-	}
+	margin-bottom: clamp(20px, 1.98vw, 1.98vw);
 }
 
 .desc {
-	font-size: 1.04vw;
-
-	@media screen and (max-width: 768px) {
-		font-size: 2.8vw;
-	}
+	font-size: var(--fzDesc);
 }
 
 .name {
-	/* font-size: var(--fzSubTitle); */
-	font-size: 3.33vw;
+	font-size: var(--fzTitleBlockSmall);
 	font-family: var(--title-font);
 	display: flex;
 	align-items: center;
 	gap: 1.56vw;
-
-	@media screen and (max-width: 768px) {
-		font-size: 7.4vw;
-	}
+	line-height: 100%;
 }
 
 .image {
@@ -34,4 +22,23 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+	.headline {
+		flex-direction: column;
+	}
+
+	.desc {
+		margin-bottom: 6px;
+	}
+
+	.name {
+		justify-content: space-between;
+	}
+
+	.link {
+		display: inline-block;
+		height: 100vw;
+	}
 }

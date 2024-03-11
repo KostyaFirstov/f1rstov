@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import gsap from 'gsap'
 import React from 'react'
 
 interface ITransition {
@@ -40,7 +41,12 @@ const Transition: React.FC<ITransition> = ({ children }) => {
 		})
 	}
 
-	const nbOfColumns = 5
+	let mm = gsap.matchMedia()
+	let nbOfColumns = 5
+
+	mm.add('(max-width: 768px)', () => {
+		nbOfColumns = 3
+	})
 
 	return (
 		<motion.div className='page__stairs'>
