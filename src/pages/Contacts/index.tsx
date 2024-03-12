@@ -6,6 +6,7 @@ import Transition from '../../transition'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import Options from '../../components/Options'
 import useLocoScroll from '../../hooks/useLocoScroll'
+import usePageTitle from '../../hooks/usePageTitle'
 
 type RequestParams = {
 	name: string
@@ -16,6 +17,9 @@ type RequestParams = {
 }
 
 const Contacts = () => {
+	usePageTitle('Контакты')
+	useLocoScroll()
+
 	const [activeServices, setActiveServices] = React.useState({
 		active: 0,
 		name: 'Дизайном'
@@ -34,8 +38,6 @@ const Contacts = () => {
 	} = useForm<RequestParams>({
 		mode: 'onSubmit'
 	})
-
-	useLocoScroll()
 
 	const onSubmit: SubmitHandler<RequestParams> = async data => {
 		const resultData = {

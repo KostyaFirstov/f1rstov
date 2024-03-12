@@ -19,48 +19,43 @@ const ProjectSlides: React.FC<IProjectSlides> = ({ images }) => {
 	React.useEffect(() => {
 		let mm = gsap.matchMedia()
 
-		let height = '100vh'
-		let resHeight = '46vh'
-		mm.add('(max-width: 768px)', () => {
-			height = '28vh'
-			resHeight = '28vh'
+		mm.add('(min-width: 768px)', () => {
+			let tl = gsap.timeline({
+				scrollTrigger: {
+					trigger: blockRef.current,
+					start: 'top top',
+					pin: true,
+					pinSpacing: true,
+					scrub: 1,
+					invalidateOnRefresh: true
+				}
+			})
+
+			tl.fromTo(
+				qBlocks('div'),
+				{ width: '100vw', height: '100vh' },
+				{
+					width: '46vw',
+					height: '46vh'
+				}
+			)
+
+			tl.to(
+				wrapperTopRef.current,
+				{
+					x: '-150%'
+				},
+				'<'
+			)
+
+			tl.to(
+				wrapperBottomRef.current,
+				{
+					x: '0'
+				},
+				'<'
+			)
 		})
-
-		let tl = gsap.timeline({
-			scrollTrigger: {
-				trigger: blockRef.current,
-				start: 'top top',
-				pin: true,
-				pinSpacing: true,
-				scrub: 1,
-				invalidateOnRefresh: true
-			}
-		})
-
-		tl.fromTo(
-			qBlocks('div'),
-			{ width: '100vw', height: height },
-			{
-				width: '46vw',
-				height: resHeight
-			}
-		)
-
-		tl.to(
-			wrapperTopRef.current,
-			{
-				x: '-150%'
-			},
-			'<'
-		)
-
-		tl.to(
-			wrapperBottomRef.current,
-			{
-				x: '0'
-			},
-			'<'
-		)
 	}, [])
 
 	return (

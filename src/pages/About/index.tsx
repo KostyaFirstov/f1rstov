@@ -5,8 +5,10 @@ import ImageBlock from '../../components/ImageBlock'
 import ListBlock from '../../components/ListBlock'
 import Transition from '../../transition'
 import useLocoScroll from '../../hooks/useLocoScroll'
+import usePageTitle from '../../hooks/usePageTitle'
 
 const About = () => {
+	usePageTitle('Обо мне')
 	useLocoScroll()
 
 	return (

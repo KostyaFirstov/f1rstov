@@ -7,9 +7,12 @@ import Transition from '../../transition'
 import useLocoScroll from '../../hooks/useLocoScroll'
 import projects from '../../assets/projects.json'
 import gsap from 'gsap'
+import usePageTitle from '../../hooks/usePageTitle'
 
 const Projects = () => {
+	usePageTitle('Выполненные проекты')
 	useLocoScroll()
+
 	let mm = gsap.matchMedia()
 	let isMobile = false
 

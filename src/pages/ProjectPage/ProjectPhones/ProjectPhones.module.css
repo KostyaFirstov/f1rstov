@@ -6,10 +6,6 @@
 .phone {
 	flex-basis: 20%;
 	position: relative;
-
-	@media screen and (max-width: 768px) {
-		flex-basis: 28%;
-	}
 }
 
 .phone img {
@@ -28,4 +24,10 @@
 	border-radius: 4.17vw;
 	overflow: hidden;
 	padding: 0.9vw;
+}
+
+@media screen and (max-width: 768px) {
+	.phone {
+		flex-basis: 32%;
+	}
 }

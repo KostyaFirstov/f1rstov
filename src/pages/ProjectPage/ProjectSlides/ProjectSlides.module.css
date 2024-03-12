@@ -27,3 +27,17 @@
 	height: 100%;
 	object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+	.root,
+	.item {
+		height: auto;
+	}
+
+	.wrapper_top {
+		flex-direction: column;
+	}
+	.wrapper_bottom {
+		display: none;
+	}
+}
