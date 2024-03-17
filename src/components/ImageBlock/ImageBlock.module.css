@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
 	.root {
-		height: 100vw;
+		height: 50vw;
 	}
 
 	.image {

@@ -116,10 +116,19 @@ const Footer = () => {
 								<div className='container__item'>
 									<div className={styles.footer__item_footer}>
 										<div className={styles.footer__squarelinks}>
-											<SquareLink link='tg' name='Telegram' />
-											<SquareLink link='tg' name='Whatsapp' />
-											<SquareLink link='tg' name='Почта' />
-											<SquareLink link='tg' name='Behance' />
+											<SquareLink
+												link='https://t.me/kostyannbl4'
+												name='Telegram'
+											/>
+											<SquareLink
+												link='https://wa.me/79150678017'
+												name='Whatsapp'
+											/>
+											<SquareLink link='mailto:hello@f1rstov.ru' name='Почта' />
+											<SquareLink
+												link='https://www.behance.net/firstov1'
+												name='Behance'
+											/>
 										</div>
 									</div>
 								</div>
@@ -148,10 +157,13 @@ const Footer = () => {
 							))}
 						</ul>
 						<div className={styles.footer__squarelinks}>
-							<SquareLink link='tg' name='Telegram' />
-							<SquareLink link='tg' name='Whatsapp' />
-							<SquareLink link='tg' name='Почта' />
-							<SquareLink link='tg' name='Behance' />
+							<SquareLink link='https://t.me/kostyannbl4' name='Telegram' />
+							<SquareLink link='https://wa.me/79150678017' name='Whatsapp' />
+							<SquareLink link='mailto:hello@f1rstov.ru' name='Почта' />
+							<SquareLink
+								link='https://www.behance.net/firstov1'
+								name='Behance'
+							/>
 						</div>
 					</div>
 				</div>

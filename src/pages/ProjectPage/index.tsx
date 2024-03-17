@@ -9,8 +9,10 @@ import ProjectPhones from './ProjectPhones'
 import ProjectSlides from './ProjectSlides'
 import Transition from '../../transition'
 import useLocoScroll from '../../hooks/useLocoScroll'
+import usePageTitle from '../../hooks/usePageTitle'
 
 interface IProjectPage {
+	id: string
 	name: string
 	desc: string
 	about: React.ReactNode
@@ -23,6 +25,7 @@ interface IProjectPage {
 }
 
 const ProjectPage: React.FC<IProjectPage> = ({
+	id,
 	name,
 	desc,
 	about,
@@ -33,12 +36,13 @@ const ProjectPage: React.FC<IProjectPage> = ({
 	phonesImages,
 	slidesImages
 }) => {
+	usePageTitle(name)
 	useLocoScroll()
 
 	return (
 		<Transition>
 			<div className={styles.root}>
-				<HeroSection title={name} main='third' img={reels} />
+				<HeroSection title={name} main='third' video={reels} />
 				<TextBlock
 					text={desc}
 					title={about}
@@ -48,11 +52,7 @@ const ProjectPage: React.FC<IProjectPage> = ({
 				<ListBlock desc='Детали проекта' list={details} />
 				<ProjectSlides images={slidesImages} />
 				<ProjectPhones images={phonesImages} />
-				<NextProject
-					image='/images/nextProject.jpg'
-					link='/chernomorskiy__promisel'
-					name='Черноморский промысел'
-				/>
+				<NextProject id={+id} />
 			</div>
 		</Transition>
 	)

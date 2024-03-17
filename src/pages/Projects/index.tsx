@@ -25,7 +25,7 @@ const Projects = () => {
 			<HeroSection
 				title='ПРОЕКТЫ'
 				main='second'
-				img='../images/herosection-bg.jpg'
+				video='../images/herosection-bg.jpg'
 			/>
 			<TextBlock
 				text='Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту.'

@@ -8,13 +8,15 @@ export interface ILinkProps {
 	name: string
 	arrow?: boolean
 	big?: boolean
+	isNext?: boolean
 }
 
 const AnimatedLink: React.FC<ILinkProps> = ({
 	path,
 	name,
 	arrow = false,
-	big = false
+	big = false,
+	isNext = false
 }) => {
 	const [isHovered, setHovered] = React.useState(false)
 
@@ -67,6 +69,7 @@ const AnimatedLink: React.FC<ILinkProps> = ({
 		>
 			<Link
 				to={path}
+				target={isNext ? 'blank' : ''}
 				className={big ? styles.link__wrapper : styles.link__wrapper_small}
 			>
 				<motion.span

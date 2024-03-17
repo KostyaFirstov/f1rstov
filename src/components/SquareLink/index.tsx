@@ -10,7 +10,11 @@ interface SquareLinkProps {
 
 const SquareLink: React.FC<SquareLinkProps> = ({ link, name, white }) => {
 	return (
-		<Link to={link} className={white ? styles.link : styles.link_black}>
+		<Link
+			to={link}
+			className={white ? styles.link : styles.link_black}
+			target='blank'
+		>
 			{name}
 			<span>
 				<svg

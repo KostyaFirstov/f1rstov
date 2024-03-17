@@ -54,7 +54,7 @@ const Contacts = () => {
 			<HeroSection
 				title='КОНТАКТЫ'
 				main='second'
-				img='../images/herosection-bg.jpg'
+				video='../images/herosection-bg.jpg'
 			/>
 			<TextBlock
 				title='

@@ -6,7 +6,7 @@ interface IListItem {
 	index: number
 	desc?: string
 	str: string
-	text: string
+	text?: string
 	img?: string
 	setModal?: (obj: ListModal) => void
 }

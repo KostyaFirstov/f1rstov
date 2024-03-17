@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import gsap from 'gsap'
 
 interface IModal {
-	list: { desc?: string; str: string; text: string; img?: string }[]
+	list: { desc?: string; str: string; text?: string; img?: string }[]
 	modal: ListModal
 }
 

@@ -14,9 +14,9 @@ export const links = [
 ]
 
 export const socials = [
-	{ name: 'Telegram', link: 'tg' },
-	{ name: 'Behance', link: 'behance' },
-	{ name: 'Whatsapp', link: 'whatsapp' }
+	{ name: 'Telegram', link: 'https://t.me/kostyannbl4' },
+	{ name: 'Whatsapp', link: 'https://wa.me/79150678017' },
+	{ name: 'Behance', link: 'https://www.behance.net/firstov1' }
 ]
 
 const Menu = () => {
@@ -101,6 +101,7 @@ const Menu = () => {
 										name={social.name}
 										path={social.link}
 										arrow={true}
+										isNext={true}
 									/>
 								</li>
 							))}

@@ -5,12 +5,14 @@ import { useNavigate } from 'react-router-dom'
 import Transition from '../../transition'
 import useLocoScroll from '../../hooks/useLocoScroll'
 import AnimatedLink from '../../components/AnimatedLink'
+import usePageTitle from '../../hooks/usePageTitle'
 
 const NotFoundPage = () => {
 	const [timeTick, setTimeTick] = React.useState(7)
 	const navigate = useNavigate()
 
 	useLocoScroll()
+	usePageTitle('Страницы не найдено :(')
 
 	React.useEffect(() => {
 		if (timeTick === 0) {

@@ -3,7 +3,12 @@ import styles from './ListBlock.module.css'
 import ListItem from './ListItem'
 import Modal from './Modal'
 
-export type IList = { desc?: string; str: string; text: string; img?: string }[]
+export type IList = {
+	desc?: string
+	str: string
+	text?: string
+	img?: string
+}[]
 
 interface IListBlock {
 	desc: string

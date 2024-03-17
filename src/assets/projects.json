@@ -3,48 +3,44 @@
 		"id": "1",
 		"pageLink": "viteksstone",
 		"name": "ViteksStone",
-		"preview": "../images/projects/viteksstone/herosection.jpg",
-		"reels": "../images/projects/viteksstone/herosection.jpg",
+		"preview": "../images/projects/viteksstone/herosection.webp",
+		"reels": "../images/projects/viteksstone/showreel.mov",
 		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем. </h2>",
-		"desc": "Студия камня Viteks Stone занимается: искусственным и натуральным камнем. Помимо продажи предоставляет услyги по облицовке.",
+		"desc": "Компания ViteksStone занимается продажей и предоставляет услуги по работе с искусственным и натуральным камнем.",
 		"details": [
 			{
 				"desc": "Клиент:",
-				"str": "VITEKS STONE",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "VITEKS STONE"
 			},
 			{
 				"desc": "Индустрия: ",
-				"str": "Строительство",
-				"text": "Больше всего меня вдохновляют промо-сайты с необычными анимациями."
+				"str": "Строительство"
 			},
 			{
 				"desc": "Длительность:",
-				"str": "3 недели",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "3 недели"
 			},
 			{
 				"desc": "Услуги:",
-				"str": "Дизайн / Разработка",
-				"text": "Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту."
+				"str": "Дизайн / Разработка"
 			}
 		],
 		"link": "http://viteksstone.ru",
 		"phonesImages": [
-			"../images/projects/viteksstone/vs-phone01.jpg",
-			"../images/projects/viteksstone/vs-phone02.jpg",
-			"../images/projects/viteksstone/vs-phone03.jpg"
+			"../images/projects/viteksstone/vs-phone01.webp",
+			"../images/projects/viteksstone/vs-phone02.webp",
+			"../images/projects/viteksstone/vs-phone03.webp"
 		],
-		"imageBlock": "../images/imgBlock.jpg",
+		"imageBlock": "../images/projects/viteksstone/vs-slides09.webp",
 		"slidesImages": [
-			"../images/projects/viteksstone/vs-slides09.jpg",
-			"../images/projects/viteksstone/vs-slides07.jpg",
-			"../images/projects/viteksstone/vs-slides01.jpg",
-			"../images/projects/viteksstone/vs-slides02.jpg",
-			"../images/projects/viteksstone/vs-slides05.jpg",
-			"../images/projects/viteksstone/vs-slides06.jpg",
-			"../images/projects/viteksstone/vs-slides07.jpg",
-			"../images/projects/viteksstone/vs-slides08.jpg"
+			"../images/projects/viteksstone/vs-slides01.webp",
+			"../images/projects/viteksstone/vs-slides07.webp",
+			"../images/projects/viteksstone/vs-slides03.webp",
+			"../images/projects/viteksstone/vs-slides02.webp",
+			"../images/projects/viteksstone/vs-slides05.webp",
+			"../images/projects/viteksstone/vs-slides06.webp",
+			"../images/projects/viteksstone/vs-slides07.webp",
+			"../images/projects/viteksstone/vs-slides08.webp"
 		],
 		"services": ["Разработка", "Дизайн"],
 		"date": "2022"
@@ -53,48 +49,44 @@
 		"id": "2",
 		"pageLink": "emerald",
 		"name": "Эмеральд",
-		"preview": "../images/projects/emerald/emerald.jpg",
-		"reels": "../images/herosection-bg.jpg",
-		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем. </h2>",
-		"desc": "Студия камня Viteks Stone занимается: искусственным и натуральным камнем. Помимо продажи предоставляет услyги по облицовке.",
+		"preview": "../images/projects/emerald/emerald.webp",
+		"reels": "../images/projects/emerald/showreel.mov",
+		"about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд. </h2>",
+		"desc": "Компания Эмеральд занимается изготовлением мебели на заказ.",
 		"details": [
 			{
 				"desc": "Клиент:",
-				"str": "VITEKS STONE",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "Эмеральд"
 			},
 			{
 				"desc": "Индустрия: ",
-				"str": "Строительство",
-				"text": "Больше всего меня вдохновляют промо-сайты с необычными анимациями."
+				"str": "Мебель на заказ"
 			},
 			{
 				"desc": "Длительность:",
-				"str": "3 недели",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "2 недели"
 			},
 			{
 				"desc": "Услуги:",
-				"str": "Дизайн / Разработка",
-				"text": "Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту."
+				"str": "Дизайн / Разработка / Наполнение"
 			}
 		],
-		"link": "http://viteksstone.ru",
+		"link": "https://mebelny-zakaz.ru/",
 		"phonesImages": [
-			"../images/imgBlock.jpg",
-			"../images/herosection-bg.jpg",
-			"../images/project01.jpg"
+			"../images/projects/emerald/phone01.webp",
+			"../images/projects/emerald/phone02.webp",
+			"../images/projects/emerald/phone03.webp"
 		],
-		"imageBlock": "../images/imgBlock.jpg",
+		"imageBlock": "../images/projects/emerald/slide01.webp",
 		"slidesImages": [
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg"
+			"../images/projects/emerald/slide03.webp",
+			"../images/projects/emerald/slide02.webp",
+			"../images/projects/emerald/slide04.webp",
+			"../images/projects/emerald/slide12.webp",
+			"../images/projects/emerald/slide05.webp",
+			"../images/projects/emerald/slide06.webp",
+			"../images/projects/emerald/slide07.webp",
+			"../images/projects/emerald/slide08.webp"
 		],
 		"services": ["Разработка", "Дизайн", "Наполнение"],
 		"date": "2023"
@@ -103,150 +95,92 @@
 		"id": "3",
 		"pageLink": "lazareva",
 		"name": "Lazareva",
-		"preview": "../images/projects/lazareva/lazareva-mock02.jpg",
-		"reels": "../images/herosection-bg.jpg",
-		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем. </h2>",
-		"desc": "Студия камня Viteks Stone занимается: искусственным и натуральным камнем. Помимо продажи предоставляет услyги по облицовке.",
+		"preview": "../images/projects/lazareva/lazareva-mock02.webp",
+		"reels": "../images/projects/lazareva/showreel.mov",
+		"about": "<h2> <span>Сайт-портфолио</span> для дизайнера интерьеров и&nbsp;офисов.</h2>",
+		"desc": "Lazareva - дизайнер-визуализатор интерьеров и офисных пространств.",
 		"details": [
 			{
 				"desc": "Клиент:",
-				"str": "VITEKS STONE",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "LAZAREVA"
 			},
 			{
 				"desc": "Индустрия: ",
-				"str": "Строительство",
-				"text": "Больше всего меня вдохновляют промо-сайты с необычными анимациями."
+				"str": "Дизайн"
 			},
 			{
 				"desc": "Длительность:",
-				"str": "3 недели",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "2 недели"
 			},
 			{
 				"desc": "Услуги:",
-				"str": "Дизайн / Разработка",
-				"text": "Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту."
+				"str": "Дизайн / Разработка"
 			}
 		],
 		"link": "http://viteksstone.ru",
 		"phonesImages": [
-			"../images/imgBlock.jpg",
-			"../images/herosection-bg.jpg",
-			"../images/project01.jpg"
+			"../images/projects/lazareva/phone01.webp",
+			"../images/projects/lazareva/phone02.webp",
+			"../images/projects/lazareva/phone03.webp"
 		],
-		"imageBlock": "../images/imgBlock.jpg",
+		"imageBlock": "../images/projects/lazareva/slide01.webp",
 		"slidesImages": [
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg"
+			"../images/projects/lazareva/slide07.webp",
+			"../images/projects/lazareva/slide02.webp",
+			"../images/projects/lazareva/slide03.webp",
+			"../images/projects/lazareva/slide04.webp",
+			"../images/projects/lazareva/slide05.webp",
+			"../images/projects/lazareva/slide06.webp",
+			"../images/projects/lazareva/slide07.webp",
+			"../images/projects/lazareva/slide08.webp"
 		],
 		"services": ["Разработка", "Дизайн", "Наполнение"],
 		"date": "2024"
 	},
 	{
 		"id": "4",
-		"pageLink": "ritmx",
-		"name": "RITM-X",
-		"preview": "../images/projects/ritmx/ritmx.jpg",
-		"reels": "../images/herosection-bg.jpg",
-		"about": "{<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем. </h2>}",
+		"pageLink": "m-int",
+		"name": "M-Int.",
+		"preview": "../images/projects/m-int/mint.webp",
+		"reels": "../images/projects/m-int/showreel.mov",
+		"about": "<h2> <span>Лэндинг</span> для компании, производящей био-<br/>добавки. </h2>",
 		"desc": "Студия камня Viteks Stone занимается: искусственным и натуральным камнем. Помимо продажи предоставляет услyги по облицовке.",
 		"details": [
 			{
 				"desc": "Клиент:",
-				"str": "VITEKS STONE",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "M-International"
 			},
 			{
 				"desc": "Индустрия: ",
-				"str": "Строительство",
-				"text": "Больше всего меня вдохновляют промо-сайты с необычными анимациями."
+				"str": "Здоровье"
 			},
 			{
 				"desc": "Длительность:",
-				"str": "3 недели",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
+				"str": "2 недели"
 			},
 			{
 				"desc": "Услуги:",
-				"str": "Дизайн / Разработка",
-				"text": "Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту."
+				"str": "Дизайн / Разработка"
 			}
 		],
 		"link": "http://viteksstone.ru",
 		"phonesImages": [
-			"../images/imgBlock.jpg",
-			"../images/herosection-bg.jpg",
-			"../images/project01.jpg"
+			"../images/projects/m-int/phone01.webp",
+			"../images/projects/m-int/phone02.webp",
+			"../images/projects/m-int/phone03.webp"
 		],
-		"imageBlock": "../images/imgBlock.jpg",
+		"imageBlock": "../images/projects/m-int/slide01.webp",
 		"slidesImages": [
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg"
+			"../images/projects/m-int/slide02.webp",
+			"../images/projects/m-int/slide03.webp",
+			"../images/projects/m-int/slide04.webp",
+			"../images/projects/m-int/slide05.webp",
+			"../images/projects/m-int/slide06.webp",
+			"../images/projects/m-int/slide07.webp",
+			"../images/projects/m-int/slide08.webp",
+			"../images/projects/m-int/slide08.webp"
 		],
 		"services": ["Разработка", "Дизайн", "Наполнение"],
-		"date": "2022"
-	},
-	{
-		"id": "5",
-		"pageLink": "storium",
-		"name": "Storium",
-		"preview": "../images/projects/viteksstone/herosection.jpg",
-		"reels": "../images/herosection-bg.jpg",
-		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем. </h2>",
-		"desc": "Студия камня Viteks Stone занимается: искусственным и натуральным камнем. Помимо продажи предоставляет услyги по облицовке.",
-		"details": [
-			{
-				"desc": "Клиент:",
-				"str": "VITEKS STONE",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
-			},
-			{
-				"desc": "Индустрия: ",
-				"str": "Строительство",
-				"text": "Больше всего меня вдохновляют промо-сайты с необычными анимациями."
-			},
-			{
-				"desc": "Длительность:",
-				"str": "3 недели",
-				"text": "В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день."
-			},
-			{
-				"desc": "Услуги:",
-				"str": "Дизайн / Разработка",
-				"text": "Помогаю компаниям выделяться среди конкурентов, повышать количество клиентов, интерес и стоимость к своему продукту."
-			}
-		],
-		"link": "http://viteksstone.ru",
-		"phonesImages": [
-			"../images/imgBlock.jpg",
-			"../images/herosection-bg.jpg",
-			"../images/project01.jpg"
-		],
-		"imageBlock": "../images/imgBlock.jpg",
-		"slidesImages": [
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg",
-			"../images/imgBlock.jpg",
-			"../images/project01.jpg"
-		],
-		"services": ["Дизайн", "Мобильное приложение"],
-		"date": "2024"
+		"date": "2023"
 	}
 ]

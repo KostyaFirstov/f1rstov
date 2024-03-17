@@ -16,7 +16,7 @@ const About = () => {
 			<HeroSection
 				title='ОБО МНЕ'
 				main='second'
-				img='../images/herosection-bg.jpg'
+				video='../images/herosection-bg.jpg'
 			/>
 			<TextBlock
 				text='В IT с 2019-го года, а к разработке сайтов пришёл в 2021 и занимаюсь этим по сей день.'

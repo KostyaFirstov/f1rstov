@@ -8,13 +8,13 @@ gsap.registerPlugin(ScrollTrigger)
 interface HeroSectionProps {
 	main?: 'main' | 'second' | 'third'
 	title: string
-	img: string
+	video: string
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({
 	main = 'main',
 	title,
-	img
+	video
 }) => {
 	const blockRef = React.useRef<HTMLDivElement>(null)
 	const qBlocks = gsap.utils.selector(blockRef)
@@ -61,7 +61,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 			)
 
 			tl.fromTo(
-				qBlocks('.hero__image img'),
+				qBlocks('.hero__image video'),
 				{ width: '92vw' },
 				{
 					width: '100vw',
@@ -91,7 +91,14 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 						</h1>
 					</div>
 					<div className='hero__image'>
-						<img src={img} alt={title} />
+						<video
+							className={styles.image}
+							src={video}
+							preload='meta'
+							muted={true}
+							loop={true}
+							autoPlay={true}
+						></video>
 					</div>
 				</div>
 			</div>
