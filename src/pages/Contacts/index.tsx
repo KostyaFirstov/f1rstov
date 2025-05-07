@@ -7,6 +7,7 @@ import { SubmitHandler, useForm } from 'react-hook-form'
 import Options from '../../components/Options'
 import useLocoScroll from '../../hooks/useLocoScroll'
 import usePageTitle from '../../hooks/usePageTitle'
+import { sendMessage } from '../../api/telegram'
 
 type RequestParams = {
 	name: string
@@ -20,6 +21,8 @@ const Contacts = () => {
 	usePageTitle('Контакты')
 	useLocoScroll()
 
+	const [isLoading, setIsLoading] = React.useState(false)
+	const [isSended, setIsSended] = React.useState(false)
 	const [activeServices, setActiveServices] = React.useState({
 		active: 0,
 		name: 'Дизайном'
@@ -33,20 +36,43 @@ const Contacts = () => {
 		register,
 		handleSubmit,
 		setError,
+		reset,
 		setValue,
 		formState: { errors, isValid }
 	} = useForm<RequestParams>({
 		mode: 'onSubmit'
 	})
 
-	const onSubmit: SubmitHandler<RequestParams> = async data => {
-		const resultData = {
-			name: data.name,
-			company: data.company,
-			services: activeServices.name,
-			price: activePrice.name,
-			contact: data.contact
+	const onSubmit: SubmitHandler<RequestParams> = async ({
+		name,
+		company,
+		contact
+	}) => {
+		try {
+			const message = `Имя: ${name}%0AКомпания: ${company} %0AНужна помощь с - ${activeServices.name} %0AБюджет: ${activePrice.name} %0A%0AКонтакт: ${contact}`
+
+			setIsLoading(true)
+			await sendMessage(message)
+
+			setIsSended(true)
+			clearFields()
+		} catch (e) {
+			alert(e as string)
+		} finally {
+			setIsLoading(false)
 		}
+	}
+
+	const clearFields = () => {
+		reset()
+		setActivePrice({
+			active: 0,
+			name: '< 50.000₽'
+		})
+		setActiveServices({
+			active: 0,
+			name: 'Дизайном'
+		})
 	}
 
 	return (
@@ -54,7 +80,7 @@ const Contacts = () => {
 			<HeroSection
 				title='КОНТАКТЫ'
 				main='second'
-				video='../images/herosection-bg.jpg'
+				video='../images/contacts.mp4'
 			/>
 			<TextBlock
 				title='
@@ -63,9 +89,13 @@ const Contacts = () => {
 					</h2>
 				'
 				links={[
-					{ path: '/Whatsapp', name: 'Whatsapp' },
-					{ path: '/Telegram', name: 'Telegram' },
-					{ path: '/Почта', name: 'Почта' }
+					{ path: 'https://wa.me/79150678017', name: 'Whatsapp', isNext: true },
+					{ path: 'https://t.me/kostyannbl4', name: 'Telegram', isNext: true },
+					{
+						path: 'mailto:hello@f1rstov.ru',
+						name: 'Почта',
+						isNext: true
+					}
 				]}
 				desc='Напишите мне сюда:'
 				subText='Или оставьте заявку ниже'
@@ -131,7 +161,16 @@ const Contacts = () => {
 								})}
 							/>
 						</div>
-						<button className={styles.submit_btn}>Начнём работу</button>
+						<button
+							disabled={isSended ? true : false}
+							className={styles.submit_btn}
+						>
+							{isLoading
+								? 'Отправка'
+								: isSended
+								? 'Спасибо! Я скоро свяжусь с вами!'
+								: 'Начнём работу'}
+						</button>
 					</form>
 				</div>
 			</div>

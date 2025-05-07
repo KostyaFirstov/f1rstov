@@ -37,6 +37,12 @@
 	font-size: var(--fzDesc);
 }
 
+.submit_btn:disabled {
+	cursor: unset;
+	background-color: chartreuse;
+	color: var(--black-color);
+}
+
 .input .error {
 	border-bottom: 1px solid #e32636;
 }

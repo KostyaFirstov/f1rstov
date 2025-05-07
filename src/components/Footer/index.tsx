@@ -119,15 +119,18 @@ const Footer = () => {
 											<SquareLink
 												link='https://t.me/kostyannbl4'
 												name='Telegram'
+												isNext={true}
 											/>
 											<SquareLink
 												link='https://wa.me/79150678017'
 												name='Whatsapp'
+												isNext={true}
 											/>
 											<SquareLink link='mailto:hello@f1rstov.ru' name='Почта' />
 											<SquareLink
 												link='https://www.behance.net/firstov1'
 												name='Behance'
+												isNext={true}
 											/>
 										</div>
 									</div>
@@ -157,12 +160,25 @@ const Footer = () => {
 							))}
 						</ul>
 						<div className={styles.footer__squarelinks}>
-							<SquareLink link='https://t.me/kostyannbl4' name='Telegram' />
-							<SquareLink link='https://wa.me/79150678017' name='Whatsapp' />
-							<SquareLink link='mailto:hello@f1rstov.ru' name='Почта' />
+							<SquareLink
+								link='https://t.me/kostyannbl4'
+								name='Telegram'
+								isNext={true}
+							/>
+							<SquareLink
+								link='https://wa.me/79150678017'
+								name='Whatsapp'
+								isNext={true}
+							/>
+							<SquareLink
+								link='mailto:hello@f1rstov.ru'
+								name='Почта'
+								isNext={true}
+							/>
 							<SquareLink
 								link='https://www.behance.net/firstov1'
 								name='Behance'
+								isNext={true}
 							/>
 						</div>
 					</div>

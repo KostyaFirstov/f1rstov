@@ -63,7 +63,7 @@ function App() {
 							<Route path='/about' element={<About />} />
 							<Route path='/gallery' element={<Gallery />} />
 							<Route path='/contacts' element={<Contacts />} />
-							<Route path='/*' element={<NotFoundPage />} />
+							<Route path='*' element={<NotFoundPage />} />
 						</Route>
 					</Routes>
 				</AnimatePresence>

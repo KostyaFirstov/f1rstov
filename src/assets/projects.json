@@ -4,8 +4,8 @@
 		"pageLink": "viteksstone",
 		"name": "ViteksStone",
 		"preview": "../images/projects/viteksstone/herosection.webp",
-		"reels": "../images/projects/viteksstone/showreel.mov",
-		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем. </h2>",
+		"reels": "../images/projects/viteksstone/showreel.mp4",
+		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем </h2>",
 		"desc": "Компания ViteksStone занимается продажей и предоставляет услуги по работе с искусственным и натуральным камнем.",
 		"details": [
 			{
@@ -50,8 +50,8 @@
 		"pageLink": "emerald",
 		"name": "Эмеральд",
 		"preview": "../images/projects/emerald/emerald.webp",
-		"reels": "../images/projects/emerald/showreel.mov",
-		"about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд. </h2>",
+		"reels": "../images/projects/emerald/showreel.mp4",
+		"about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд </h2>",
 		"desc": "Компания Эмеральд занимается изготовлением мебели на заказ.",
 		"details": [
 			{
@@ -96,8 +96,8 @@
 		"pageLink": "lazareva",
 		"name": "Lazareva",
 		"preview": "../images/projects/lazareva/lazareva-mock02.webp",
-		"reels": "../images/projects/lazareva/showreel.mov",
-		"about": "<h2> <span>Сайт-портфолио</span> для дизайнера интерьеров и&nbsp;офисов.</h2>",
+		"reels": "../images/projects/lazareva/showreel.mp4",
+		"about": "<h2> <span>Сайт-портфолио</span> для дизайнера интерьеров и&nbsp;офисов</h2>",
 		"desc": "Lazareva - дизайнер-визуализатор интерьеров и офисных пространств.",
 		"details": [
 			{
@@ -117,7 +117,7 @@
 				"str": "Дизайн / Разработка"
 			}
 		],
-		"link": "http://viteksstone.ru",
+		"link": "https://lazareva.vercel.app/",
 		"phonesImages": [
 			"../images/projects/lazareva/phone01.webp",
 			"../images/projects/lazareva/phone02.webp",
@@ -142,9 +142,9 @@
 		"pageLink": "m-int",
 		"name": "M-Int.",
 		"preview": "../images/projects/m-int/mint.webp",
-		"reels": "../images/projects/m-int/showreel.mov",
-		"about": "<h2> <span>Лэндинг</span> для компании, производящей био-<br/>добавки. </h2>",
-		"desc": "Студия камня Viteks Stone занимается: искусственным и натуральным камнем. Помимо продажи предоставляет услyги по облицовке.",
+		"reels": "../images/projects/m-int/showreel.mp4",
+		"about": "<h2> <span>Лэндинг</span> для компании, производящей био-<br/>добавки </h2>",
+		"desc": "Компания M-International занимается производством добавок для здоровья.",
 		"details": [
 			{
 				"desc": "Клиент:",
@@ -163,7 +163,7 @@
 				"str": "Дизайн / Разработка"
 			}
 		],
-		"link": "http://viteksstone.ru",
+		"link": "https://kostyafirstov.github.io/MInternational/",
 		"phonesImages": [
 			"../images/projects/m-int/phone01.webp",
 			"../images/projects/m-int/phone02.webp",

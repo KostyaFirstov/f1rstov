@@ -93,12 +93,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 					<div className='hero__image'>
 						<video
 							className={styles.image}
-							src={video}
 							preload='meta'
 							muted={true}
 							loop={true}
 							autoPlay={true}
-						></video>
+						>
+							<source src={video} type='video/mp4' />
+						</video>
 					</div>
 				</div>
 			</div>

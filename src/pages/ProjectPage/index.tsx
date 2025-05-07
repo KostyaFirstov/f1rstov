@@ -46,7 +46,7 @@ const ProjectPage: React.FC<IProjectPage> = ({
 				<TextBlock
 					text={desc}
 					title={about}
-					links={[{ path: link, name: 'Смотреть сайт' }]}
+					links={[{ path: link, name: 'Смотреть сайт', isNext: true }]}
 				/>
 				<ImageBlock src={imageBlock} alt={name} />
 				<ListBlock desc='Детали проекта' list={details} />

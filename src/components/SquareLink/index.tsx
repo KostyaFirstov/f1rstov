@@ -6,14 +6,20 @@ interface SquareLinkProps {
 	link: string
 	name: string
 	white?: true
+	isNext?: boolean
 }
 
-const SquareLink: React.FC<SquareLinkProps> = ({ link, name, white }) => {
+const SquareLink: React.FC<SquareLinkProps> = ({
+	link,
+	name,
+	white,
+	isNext = false
+}) => {
 	return (
 		<Link
 			to={link}
 			className={white ? styles.link : styles.link_black}
-			target='blank'
+			target={isNext ? 'blank' : ''}
 		>
 			{name}
 			<span>

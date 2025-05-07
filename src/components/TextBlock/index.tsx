@@ -8,7 +8,7 @@ interface TextBlockProps {
 	text?: string
 	subText?: string
 	list?: string[]
-	links?: { name: string; path: string }[]
+	links?: { name: string; path: string; isNext?: boolean }[]
 	main?: boolean
 }
 
@@ -46,6 +46,7 @@ const TextBlock: React.FC<TextBlockProps> = ({
 												<AnimatedLink
 													name={item.name}
 													path={item.path}
+													isNext={item.isNext}
 													arrow={true}
 												/>
 											</li>
@@ -89,6 +90,7 @@ const TextBlock: React.FC<TextBlockProps> = ({
 										<AnimatedLink
 											name={item.name}
 											path={item.path}
+											isNext={item.isNext}
 											arrow={true}
 										/>
 									</li>
