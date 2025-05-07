@@ -37,7 +37,7 @@ const About = () => {
           },
           {
             desc: 'Разработка:',
-            str: 'Html / Css / Js / React / Next.JS / Ts',
+            str: 'Html / Css / Js / React / React Native / Next.JS / Typescript',
           },
           {
             desc: 'Анимация:',
