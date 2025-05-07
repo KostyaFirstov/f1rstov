@@ -1,6 +1,6 @@
 [
   {
-    "id": "5",
+    "id": "1",
     "pageLink": "givas-it",
     "name": "Givas-Italy",
     "preview": "../images/projects/givas/preview.webp",
@@ -47,7 +47,7 @@
     "isHeroImg": true
   },
   {
-    "id": "1",
+    "id": "2",
     "pageLink": "viteksstone",
     "name": "ViteksStone",
     "preview": "../images/projects/viteksstone/herosection.webp",
@@ -93,7 +93,7 @@
     "date": "2022"
   },
   {
-    "id": "2",
+    "id": "3",
     "pageLink": "emerald",
     "name": "Эмеральд",
     "preview": "../images/projects/emerald/emerald.webp",
@@ -139,7 +139,7 @@
     "date": "2023"
   },
   {
-    "id": "3",
+    "id": "4",
     "pageLink": "lazareva",
     "name": "Lazareva",
     "preview": "../images/projects/lazareva/lazareva-mock02.webp",
@@ -185,7 +185,7 @@
     "date": "2024"
   },
   {
-    "id": "4",
+    "id": "5",
     "pageLink": "m-int",
     "name": "M-Int.",
     "preview": "../images/projects/m-int/mint.webp",
