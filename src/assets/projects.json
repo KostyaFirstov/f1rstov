@@ -1,186 +1,280 @@
 [
-	{
-		"id": "1",
-		"pageLink": "viteksstone",
-		"name": "ViteksStone",
-		"preview": "../images/projects/viteksstone/herosection.webp",
-		"reels": "../images/projects/viteksstone/showreel.mp4",
-		"about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем </h2>",
-		"desc": "Компания ViteksStone занимается продажей и предоставляет услуги по работе с искусственным и натуральным камнем.",
-		"details": [
-			{
-				"desc": "Клиент:",
-				"str": "VITEKS STONE"
-			},
-			{
-				"desc": "Индустрия: ",
-				"str": "Строительство"
-			},
-			{
-				"desc": "Длительность:",
-				"str": "3 недели"
-			},
-			{
-				"desc": "Услуги:",
-				"str": "Дизайн / Разработка"
-			}
-		],
-		"link": "http://viteksstone.ru",
-		"phonesImages": [
-			"../images/projects/viteksstone/vs-phone01.webp",
-			"../images/projects/viteksstone/vs-phone02.webp",
-			"../images/projects/viteksstone/vs-phone03.webp"
-		],
-		"imageBlock": "../images/projects/viteksstone/vs-slides09.webp",
-		"slidesImages": [
-			"../images/projects/viteksstone/vs-slides01.webp",
-			"../images/projects/viteksstone/vs-slides07.webp",
-			"../images/projects/viteksstone/vs-slides03.webp",
-			"../images/projects/viteksstone/vs-slides02.webp",
-			"../images/projects/viteksstone/vs-slides05.webp",
-			"../images/projects/viteksstone/vs-slides06.webp",
-			"../images/projects/viteksstone/vs-slides07.webp",
-			"../images/projects/viteksstone/vs-slides08.webp"
-		],
-		"services": ["Разработка", "Дизайн"],
-		"date": "2022"
-	},
-	{
-		"id": "2",
-		"pageLink": "emerald",
-		"name": "Эмеральд",
-		"preview": "../images/projects/emerald/emerald.webp",
-		"reels": "../images/projects/emerald/showreel.mp4",
-		"about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд </h2>",
-		"desc": "Компания Эмеральд занимается изготовлением мебели на заказ.",
-		"details": [
-			{
-				"desc": "Клиент:",
-				"str": "Эмеральд"
-			},
-			{
-				"desc": "Индустрия: ",
-				"str": "Мебель на заказ"
-			},
-			{
-				"desc": "Длительность:",
-				"str": "2 недели"
-			},
-			{
-				"desc": "Услуги:",
-				"str": "Дизайн / Разработка / Наполнение"
-			}
-		],
-		"link": "https://mebelny-zakaz.ru/",
-		"phonesImages": [
-			"../images/projects/emerald/phone01.webp",
-			"../images/projects/emerald/phone02.webp",
-			"../images/projects/emerald/phone03.webp"
-		],
-		"imageBlock": "../images/projects/emerald/slide01.webp",
-		"slidesImages": [
-			"../images/projects/emerald/slide03.webp",
-			"../images/projects/emerald/slide02.webp",
-			"../images/projects/emerald/slide04.webp",
-			"../images/projects/emerald/slide12.webp",
-			"../images/projects/emerald/slide05.webp",
-			"../images/projects/emerald/slide06.webp",
-			"../images/projects/emerald/slide07.webp",
-			"../images/projects/emerald/slide08.webp"
-		],
-		"services": ["Разработка", "Дизайн", "Наполнение"],
-		"date": "2023"
-	},
-	{
-		"id": "3",
-		"pageLink": "lazareva",
-		"name": "Lazareva",
-		"preview": "../images/projects/lazareva/lazareva-mock02.webp",
-		"reels": "../images/projects/lazareva/showreel.mp4",
-		"about": "<h2> <span>Сайт-портфолио</span> для дизайнера интерьеров и&nbsp;офисов</h2>",
-		"desc": "Lazareva - дизайнер-визуализатор интерьеров и офисных пространств.",
-		"details": [
-			{
-				"desc": "Клиент:",
-				"str": "LAZAREVA"
-			},
-			{
-				"desc": "Индустрия: ",
-				"str": "Дизайн"
-			},
-			{
-				"desc": "Длительность:",
-				"str": "2 недели"
-			},
-			{
-				"desc": "Услуги:",
-				"str": "Дизайн / Разработка"
-			}
-		],
-		"link": "https://lazareva.vercel.app/",
-		"phonesImages": [
-			"../images/projects/lazareva/phone01.webp",
-			"../images/projects/lazareva/phone02.webp",
-			"../images/projects/lazareva/phone03.webp"
-		],
-		"imageBlock": "../images/projects/lazareva/slide01.webp",
-		"slidesImages": [
-			"../images/projects/lazareva/slide07.webp",
-			"../images/projects/lazareva/slide02.webp",
-			"../images/projects/lazareva/slide03.webp",
-			"../images/projects/lazareva/slide04.webp",
-			"../images/projects/lazareva/slide05.webp",
-			"../images/projects/lazareva/slide06.webp",
-			"../images/projects/lazareva/slide07.webp",
-			"../images/projects/lazareva/slide08.webp"
-		],
-		"services": ["Разработка", "Дизайн", "Наполнение"],
-		"date": "2024"
-	},
-	{
-		"id": "4",
-		"pageLink": "m-int",
-		"name": "M-Int.",
-		"preview": "../images/projects/m-int/mint.webp",
-		"reels": "../images/projects/m-int/showreel.mp4",
-		"about": "<h2> <span>Лэндинг</span> для компании, производящей био-<br/>добавки </h2>",
-		"desc": "Компания M-International занимается производством добавок для здоровья.",
-		"details": [
-			{
-				"desc": "Клиент:",
-				"str": "M-International"
-			},
-			{
-				"desc": "Индустрия: ",
-				"str": "Здоровье"
-			},
-			{
-				"desc": "Длительность:",
-				"str": "2 недели"
-			},
-			{
-				"desc": "Услуги:",
-				"str": "Дизайн / Разработка"
-			}
-		],
-		"link": "https://kostyafirstov.github.io/MInternational/",
-		"phonesImages": [
-			"../images/projects/m-int/phone01.webp",
-			"../images/projects/m-int/phone02.webp",
-			"../images/projects/m-int/phone03.webp"
-		],
-		"imageBlock": "../images/projects/m-int/slide01.webp",
-		"slidesImages": [
-			"../images/projects/m-int/slide02.webp",
-			"../images/projects/m-int/slide03.webp",
-			"../images/projects/m-int/slide04.webp",
-			"../images/projects/m-int/slide05.webp",
-			"../images/projects/m-int/slide06.webp",
-			"../images/projects/m-int/slide07.webp",
-			"../images/projects/m-int/slide08.webp",
-			"../images/projects/m-int/slide08.webp"
-		],
-		"services": ["Разработка", "Дизайн", "Наполнение"],
-		"date": "2023"
-	}
+  {
+    "id": "5",
+    "pageLink": "givas-it",
+    "name": "Givas-Italy",
+    "preview": "../images/projects/givas/preview.webp",
+    "reels": "../images/projects/givas/preview.webp",
+    "about": "<h2> <span>Интернет-магазин</span> для итальянской компании, производящей мед. оборудование</h2>",
+    "desc": "Итальянская компания Givas - лидер в производстве медицинской мебели и оборудования.",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "Givas-IT"
+      },
+      {
+        "desc": "Индустрия:",
+        "str": "Медицина"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "3 недели"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка"
+      }
+    ],
+    "link": "https://givas-it-umber.vercel.app/",
+    "phonesImages": [
+      "../images/projects/givas/phone01.jpg",
+      "../images/projects/givas/phone02.jpg",
+      "../images/projects/givas/phone03.jpg"
+    ],
+    "imageBlock": "../images/projects/givas/slide00.jpg",
+    "slidesImages": [
+      "../images/projects/givas/slide00.jpg",
+      "../images/projects/givas/slide03.jpg",
+      "../images/projects/givas/slide02.jpg",
+      "../images/projects/givas/slide01.jpg",
+      "../images/projects/givas/slide04.jpg",
+      "../images/projects/givas/slide05.jpg",
+      "../images/projects/givas/slide06.jpg",
+      "../images/projects/givas/slide06.jpg"
+    ],
+    "services": ["Разработка", "Дизайн", "Наполнение"],
+    "date": "2025",
+    "isHeroImg": true
+  },
+  {
+    "id": "1",
+    "pageLink": "viteksstone",
+    "name": "ViteksStone",
+    "preview": "../images/projects/viteksstone/herosection.webp",
+    "reels": "../images/projects/viteksstone/showreel.mp4",
+    "about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем </h2>",
+    "desc": "Компания ViteksStone занимается продажей и предоставляет услуги по работе с искусственным и натуральным камнем.",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "VITEKS STONE"
+      },
+      {
+        "desc": "Индустрия: ",
+        "str": "Строительство"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "3 недели"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка"
+      }
+    ],
+    "link": "http://viteksstone.ru",
+    "phonesImages": [
+      "../images/projects/viteksstone/vs-phone01.webp",
+      "../images/projects/viteksstone/vs-phone02.webp",
+      "../images/projects/viteksstone/vs-phone03.webp"
+    ],
+    "imageBlock": "../images/projects/viteksstone/vs-slides09.webp",
+    "slidesImages": [
+      "../images/projects/viteksstone/vs-slides01.webp",
+      "../images/projects/viteksstone/vs-slides07.webp",
+      "../images/projects/viteksstone/vs-slides03.webp",
+      "../images/projects/viteksstone/vs-slides02.webp",
+      "../images/projects/viteksstone/vs-slides05.webp",
+      "../images/projects/viteksstone/vs-slides06.webp",
+      "../images/projects/viteksstone/vs-slides07.webp",
+      "../images/projects/viteksstone/vs-slides08.webp"
+    ],
+    "services": ["Разработка", "Дизайн"],
+    "date": "2022"
+  },
+  {
+    "id": "2",
+    "pageLink": "emerald",
+    "name": "Эмеральд",
+    "preview": "../images/projects/emerald/emerald.webp",
+    "reels": "../images/projects/emerald/showreel.mp4",
+    "about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд </h2>",
+    "desc": "Компания Эмеральд занимается изготовлением мебели на заказ.",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "Эмеральд"
+      },
+      {
+        "desc": "Индустрия: ",
+        "str": "Мебель на заказ"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "2 недели"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка / Наполнение"
+      }
+    ],
+    "link": "https://mebelny-zakaz.ru/",
+    "phonesImages": [
+      "../images/projects/emerald/phone01.webp",
+      "../images/projects/emerald/phone02.webp",
+      "../images/projects/emerald/phone03.webp"
+    ],
+    "imageBlock": "../images/projects/emerald/slide01.webp",
+    "slidesImages": [
+      "../images/projects/emerald/slide03.webp",
+      "../images/projects/emerald/slide02.webp",
+      "../images/projects/emerald/slide04.webp",
+      "../images/projects/emerald/slide12.webp",
+      "../images/projects/emerald/slide05.webp",
+      "../images/projects/emerald/slide06.webp",
+      "../images/projects/emerald/slide07.webp",
+      "../images/projects/emerald/slide08.webp"
+    ],
+    "services": ["Разработка", "Дизайн", "Наполнение"],
+    "date": "2023"
+  },
+  {
+    "id": "3",
+    "pageLink": "lazareva",
+    "name": "Lazareva",
+    "preview": "../images/projects/lazareva/lazareva-mock02.webp",
+    "reels": "../images/projects/lazareva/showreel.mp4",
+    "about": "<h2> <span>Сайт-портфолио</span> для дизайнера интерьеров и&nbsp;офисов</h2>",
+    "desc": "Lazareva - дизайнер-визуализатор интерьеров и офисных пространств.",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "LAZAREVA"
+      },
+      {
+        "desc": "Индустрия: ",
+        "str": "Дизайн"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "2 недели"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка"
+      }
+    ],
+    "link": "https://lazareva.vercel.app/",
+    "phonesImages": [
+      "../images/projects/lazareva/phone01.webp",
+      "../images/projects/lazareva/phone02.webp",
+      "../images/projects/lazareva/phone03.webp"
+    ],
+    "imageBlock": "../images/projects/lazareva/slide01.webp",
+    "slidesImages": [
+      "../images/projects/lazareva/slide07.webp",
+      "../images/projects/lazareva/slide02.webp",
+      "../images/projects/lazareva/slide03.webp",
+      "../images/projects/lazareva/slide04.webp",
+      "../images/projects/lazareva/slide05.webp",
+      "../images/projects/lazareva/slide06.webp",
+      "../images/projects/lazareva/slide07.webp",
+      "../images/projects/lazareva/slide08.webp"
+    ],
+    "services": ["Разработка", "Дизайн", "Наполнение"],
+    "date": "2024"
+  },
+  {
+    "id": "4",
+    "pageLink": "m-int",
+    "name": "M-Int.",
+    "preview": "../images/projects/m-int/mint.webp",
+    "reels": "../images/projects/m-int/showreel.mp4",
+    "about": "<h2> <span>Лэндинг</span> для компании, производящей био-<br/>добавки </h2>",
+    "desc": "Компания M-International занимается производством добавок для здоровья.",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "M-International"
+      },
+      {
+        "desc": "Индустрия: ",
+        "str": "Здоровье"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "2 недели"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка"
+      }
+    ],
+    "link": "https://kostyafirstov.github.io/MInternational/",
+    "phonesImages": [
+      "../images/projects/m-int/phone01.webp",
+      "../images/projects/m-int/phone02.webp",
+      "../images/projects/m-int/phone03.webp"
+    ],
+    "imageBlock": "../images/projects/m-int/slide01.webp",
+    "slidesImages": [
+      "../images/projects/m-int/slide02.webp",
+      "../images/projects/m-int/slide03.webp",
+      "../images/projects/m-int/slide04.webp",
+      "../images/projects/m-int/slide05.webp",
+      "../images/projects/m-int/slide06.webp",
+      "../images/projects/m-int/slide07.webp",
+      "../images/projects/m-int/slide08.webp",
+      "../images/projects/m-int/slide08.webp"
+    ],
+    "services": ["Разработка", "Дизайн", "Наполнение"],
+    "date": "2023"
+  },
+  {
+    "id": "6",
+    "pageLink": "scanfood",
+    "name": "ScanFood",
+    "preview": "../images/projects/scanfood/preview.webp",
+    "reels": "../images/projects/scanfood/preview.webp",
+    "about": "<h2> <span>Мобильное приложение</span> - анализирующее состав продуктов</h2>",
+    "desc": "ScanFood ваш личный персональный помощник, который в зависимости от ваших предпочтений/целей анализирует состав любых продуктов",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "ScanFood"
+      },
+      {
+        "desc": "Индустрия:",
+        "str": "Здоровье"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "2 месяца"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка / Идея"
+      }
+    ],
+    "link": "#",
+    "phonesImages": [
+      "../images/projects/scanfood/phone01.jpg",
+      "../images/projects/scanfood/phone02.jpg",
+      "../images/projects/scanfood/phone03.jpg"
+    ],
+    "imageBlock": "../images/projects/scanfood/slide00.jpg",
+    "slidesImages": [
+      "../images/projects/scanfood/slide03.jpg",
+      "../images/projects/scanfood/slide02.jpg",
+      "../images/projects/scanfood/slide01.jpg",
+      "../images/projects/scanfood/slide04.jpg",
+      "../images/projects/scanfood/slide00.jpg",
+      "../images/projects/scanfood/slide03.jpg",
+      "../images/projects/scanfood/slide02.jpg",
+      "../images/projects/scanfood/slide01.jpg"
+    ],
+    "services": ["Разработка", "Дизайн", "Идея"],
+    "date": "2025-скоро",
+    "isHeroImg": true
+  }
 ]

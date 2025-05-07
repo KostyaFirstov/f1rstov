@@ -1,139 +1,141 @@
 :root {
-	--bg-color: #f5f5f5;
-	--black-color: #0a0a0a;
-	--gray-color: #a2a2a9;
-	--lightGray-color: #d9d9d9;
+  --bg-color: #f5f5f5;
+  --black-color: #0a0a0a;
+  --gray-color: #a2a2a9;
+  --lightGray-color: #d9d9d9;
 
-	--side-padding: 3.13vw;
-	--content-padding: clamp(38px, 6vw, 6vw);
+  --side-padding: 3.13vw;
+  --content-padding: clamp(38px, 6vw, 6vw);
 
-	/* title-home */
-	--fzTitleBig: clamp(74px, 22.6vw, 22.6vw);
-	/* title-home2 */
-	--fzTitleMedium: clamp(56px, 16vw, 16vw);
-	/* title-home-3 */
-	--fzTitleSmall: clamp(44px, 13.66vw, 13.66vw);
+  /* title-home */
+  --fzTitleBig: clamp(74px, 22.6vw, 22.6vw);
+  /* title-home2 */
+  --fzTitleMedium: clamp(56px, 16vw, 16vw);
+  /* title-home-3 */
+  --fzTitleSmall: clamp(44px, 13.66vw, 13.66vw);
 
-	--fzTitleBlockBig: clamp(32px, 5vw, 5vw);
-	--fzTitleBlockSmall: clamp(28px, 3.6vw, 3.6vw);
-	--fzDesc: clamp(16px, 1vw, 1vw);
-	--fzSmall: clamp(15px, 0.83vw, 0.83vw);
+  --fzTitleBlockBig: clamp(32px, 5vw, 5vw);
+  --fzTitleBlockSmall: clamp(28px, 3.6vw, 3.6vw);
+  --fzDesc: clamp(16px, 1vw, 1vw);
+  --fzSmall: clamp(15px, 0.83vw, 0.83vw);
 
-	--main-transition: 0.4s cubic-bezier(0.5, 0.75, 0, 1);
-	--smooth-transition: 0.7s cubic-bezier(0.5, 0.5, 0, 1);
-	--container-width: 100%;
+  --main-transition: 0.4s cubic-bezier(0.5, 0.75, 0, 1);
+  --smooth-transition: 0.7s cubic-bezier(0.5, 0.5, 0, 1);
+  --container-width: 100%;
 
-	--title-font: 'Manrope', sans-serif;
-	--usual-font: 'Montserrat', sans-serif;
+  --title-font: 'Manrope', sans-serif;
+  --usual-font: 'Montserrat', sans-serif;
 
-	--radius: clamp(10px, 1.25vw, 1.25vw);
+  --radius: clamp(10px, 1.25vw, 1.25vw);
 }
 
 .radius {
-	border-radius: var(--radius);
+  border-radius: var(--radius);
 }
 
 .content__area {
-	padding: var(--content-padding) 0;
+  padding: var(--content-padding) 0;
 }
 
 .container__grid {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container__item:nth-child(1) {
-	flex-basis: 32%;
+  flex-basis: 32%;
 }
 .container__item:nth-child(2) {
-	flex-basis: 68%;
+  flex-basis: 68%;
 }
 
 .content__container {
-	max-width: var(--container-width);
-	padding: 0 var(--side-padding);
-	margin: 0 auto;
+  max-width: var(--container-width);
+  padding: 0 var(--side-padding);
+  margin: 0 auto;
 }
 
 .title {
-	font-family: var(--title-font);
+  font-family: var(--title-font);
 }
 
 body {
-	font-family: var(--usual-font);
-	font-size: clamp(16px, 1.2vw, 19px);
-	background-color: var(--bg-color);
-	color: var(--black-color);
-	overflow-x: hidden;
+  font-family: var(--usual-font);
+  font-size: clamp(16px, 1.2vw, 19px);
+  background-color: var(--bg-color);
+  color: var(--black-color);
+  overflow-x: hidden;
 }
 
 .page {
-	position: relative;
-	background-color: var(--bg-color);
-	transform-origin: top;
+  position: relative;
+  background-color: var(--bg-color);
+  transform-origin: top;
 }
 
 .slide {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: var(--bg-color);
-	width: 100vw;
-	height: 100vh;
-	z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
 }
 
 .transition__container {
-	display: flex;
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
-	top: 0;
-	left: 0;
-	pointer-events: none;
-	z-index: 11111;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 11111;
 }
 
 .transition__item {
-	position: relative;
-	height: 100%;
-	width: 100%;
-	background-color: var(--black-color);
-	will-change: transform;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: var(--black-color);
+  will-change: transform;
 }
 
 .hero__wrapper {
-	text-align: center;
+  text-align: center;
 }
 
+.hero__image img,
 .hero__image video {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: var(--radius);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
 }
 
 .hero__image {
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
-	.container__grid {
-		flex-direction: column;
-	}
+  .container__grid {
+    flex-direction: column;
+  }
 
-	.hero__image {
-		position: relative;
-		height: 74vh;
-	}
+  .hero__image {
+    position: relative;
+    height: 74vh;
+  }
 }
 
 @media screen and (max-width: 568px) {
-	.hero__image {
-		width: calc(100vw - 20px);
-		margin: 0 10px;
-		height: 42vh;
-	}
+  .hero__image {
+    width: calc(100vw - 20px);
+    margin: 0 10px;
+    height: 42vh;
+  }
 }
