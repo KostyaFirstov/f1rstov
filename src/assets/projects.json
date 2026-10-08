@@ -48,98 +48,6 @@
   },
   {
     "id": "2",
-    "pageLink": "viteksstone",
-    "name": "ViteksStone",
-    "preview": "../images/projects/viteksstone/herosection.webp",
-    "reels": "../images/projects/viteksstone/showreel.mp4",
-    "about": "<h2> <span>Корпоративный сайт</span> для компании, по работе с&nbsp;камнем </h2>",
-    "desc": "Компания ViteksStone занимается продажей и предоставляет услуги по работе с искусственным и натуральным камнем.",
-    "details": [
-      {
-        "desc": "Клиент:",
-        "str": "VITEKS STONE"
-      },
-      {
-        "desc": "Индустрия: ",
-        "str": "Строительство"
-      },
-      {
-        "desc": "Длительность:",
-        "str": "3 недели"
-      },
-      {
-        "desc": "Услуги:",
-        "str": "Дизайн / Разработка"
-      }
-    ],
-    "link": "http://viteksstone.ru",
-    "phonesImages": [
-      "../images/projects/viteksstone/vs-phone01.webp",
-      "../images/projects/viteksstone/vs-phone02.webp",
-      "../images/projects/viteksstone/vs-phone03.webp"
-    ],
-    "imageBlock": "../images/projects/viteksstone/vs-slides09.webp",
-    "slidesImages": [
-      "../images/projects/viteksstone/vs-slides01.webp",
-      "../images/projects/viteksstone/vs-slides07.webp",
-      "../images/projects/viteksstone/vs-slides03.webp",
-      "../images/projects/viteksstone/vs-slides02.webp",
-      "../images/projects/viteksstone/vs-slides05.webp",
-      "../images/projects/viteksstone/vs-slides06.webp",
-      "../images/projects/viteksstone/vs-slides07.webp",
-      "../images/projects/viteksstone/vs-slides08.webp"
-    ],
-    "services": ["Разработка", "Дизайн"],
-    "date": "2022"
-  },
-  {
-    "id": "3",
-    "pageLink": "emerald",
-    "name": "Эмеральд",
-    "preview": "../images/projects/emerald/emerald.webp",
-    "reels": "../images/projects/emerald/showreel.mp4",
-    "about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд </h2>",
-    "desc": "Компания Эмеральд занимается изготовлением мебели на заказ.",
-    "details": [
-      {
-        "desc": "Клиент:",
-        "str": "Эмеральд"
-      },
-      {
-        "desc": "Индустрия: ",
-        "str": "Мебель на заказ"
-      },
-      {
-        "desc": "Длительность:",
-        "str": "2 недели"
-      },
-      {
-        "desc": "Услуги:",
-        "str": "Дизайн / Разработка / Наполнение"
-      }
-    ],
-    "link": "https://mebelny-zakaz.ru/",
-    "phonesImages": [
-      "../images/projects/emerald/phone01.webp",
-      "../images/projects/emerald/phone02.webp",
-      "../images/projects/emerald/phone03.webp"
-    ],
-    "imageBlock": "../images/projects/emerald/slide01.webp",
-    "slidesImages": [
-      "../images/projects/emerald/slide03.webp",
-      "../images/projects/emerald/slide02.webp",
-      "../images/projects/emerald/slide04.webp",
-      "../images/projects/emerald/slide12.webp",
-      "../images/projects/emerald/slide05.webp",
-      "../images/projects/emerald/slide06.webp",
-      "../images/projects/emerald/slide07.webp",
-      "../images/projects/emerald/slide08.webp"
-    ],
-    "services": ["Разработка", "Дизайн", "Наполнение"],
-    "date": "2023"
-  },
-  {
-    "id": "4",
     "pageLink": "lazareva",
     "name": "Lazareva",
     "preview": "../images/projects/lazareva/lazareva-mock02.webp",
@@ -182,10 +90,10 @@
       "../images/projects/lazareva/slide08.webp"
     ],
     "services": ["Разработка", "Дизайн", "Наполнение"],
-    "date": "2024"
+    "date": "2025"
   },
   {
-    "id": "5",
+    "id": "3",
     "pageLink": "m-int",
     "name": "M-Int.",
     "preview": "../images/projects/m-int/mint.webp",
@@ -228,10 +136,10 @@
       "../images/projects/m-int/slide08.webp"
     ],
     "services": ["Разработка", "Дизайн", "Наполнение"],
-    "date": "2023"
+    "date": "2024"
   },
   {
-    "id": "6",
+    "id": "4",
     "pageLink": "scanfood",
     "name": "ScanFood",
     "preview": "../images/projects/scanfood/preview.webp",
@@ -274,7 +182,7 @@
       "../images/projects/scanfood/slide01.jpg"
     ],
     "services": ["Разработка", "Дизайн", "Идея"],
-    "date": "2025-скоро",
+    "date": "2026-скоро",
     "isHeroImg": true
   }
 ]
