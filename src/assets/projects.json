@@ -74,20 +74,20 @@
     ],
     "link": "https://mebel-emerald.ru/",
     "phonesImages": [
-      "../images/projects/emerald/phone01.jpg",
-      "../images/projects/emerald/phone02.jpg",
-      "../images/projects/emerald/phone03.jpg"
+      "../images/projects/emerald/phone01.webp",
+      "../images/projects/emerald/phone02.webp",
+      "../images/projects/emerald/phone03.webp"
     ],
-    "imageBlock": "../images/projects/scanfood/slide00.jpg",
+    "imageBlock": "../images/projects/emerald/slide01.webp",
     "slidesImages": [
-      "../images/projects/emerald/slide03.jpg",
-      "../images/projects/emerald/slide02.jpg",
-      "../images/projects/emerald/slide01.jpg",
-      "../images/projects/emerald/slide04.jpg",
+      "../images/projects/emerald/slide03.webp",
+      "../images/projects/emerald/slide02.webp",
+      "../images/projects/emerald/slide01.webp",
+      "../images/projects/emerald/slide04.webp",
       "../images/projects/emerald/slide05.webp",
-      "../images/projects/emerald/slide06.jpg",
-      "../images/projects/emerald/slide02.jpg",
-      "../images/projects/emerald/slide01.jpg"
+      "../images/projects/emerald/slide06.webp",
+      "../images/projects/emerald/slide02.webp",
+      "../images/projects/emerald/slide01.webp"
     ],
     "services": ["Разработка", "Дизайн", "Идея"],
     "date": "2026-скоро",
