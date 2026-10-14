@@ -48,6 +48,53 @@
   },
   {
     "id": "2",
+    "pageLink": "emerald",
+    "name": "Emerald",
+    "preview": "../images/projects/emerald/preview.webp",
+    "reels": "../images/projects/emerald/preview.webp",
+    "about": "<h2> <span>Корпоративный сайт</span> для мебельной компании Эмеральд </h2>",
+    "desc": "Компания Эмеральд занимается изготовлением мебели на заказ.",
+    "details": [
+      {
+        "desc": "Клиент:",
+        "str": "Emerald"
+      },
+      {
+        "desc": "Индустрия:",
+        "str": "Мебель на заказ"
+      },
+      {
+        "desc": "Длительность:",
+        "str": "1 месяц"
+      },
+      {
+        "desc": "Услуги:",
+        "str": "Дизайн / Разработка / Идея"
+      }
+    ],
+    "link": "https://mebel-emerald.ru/",
+    "phonesImages": [
+      "../images/projects/emerald/phone01.jpg",
+      "../images/projects/emerald/phone02.jpg",
+      "../images/projects/emerald/phone03.jpg"
+    ],
+    "imageBlock": "../images/projects/scanfood/slide00.jpg",
+    "slidesImages": [
+      "../images/projects/emerald/slide03.jpg",
+      "../images/projects/emerald/slide02.jpg",
+      "../images/projects/emerald/slide01.jpg",
+      "../images/projects/emerald/slide04.jpg",
+      "../images/projects/emerald/slide05.webp",
+      "../images/projects/emerald/slide06.jpg",
+      "../images/projects/emerald/slide02.jpg",
+      "../images/projects/emerald/slide01.jpg"
+    ],
+    "services": ["Разработка", "Дизайн", "Идея"],
+    "date": "2026-скоро",
+    "isHeroImg": true
+  },
+  {
+    "id": "2",
     "pageLink": "lazareva",
     "name": "Lazareva",
     "preview": "../images/projects/lazareva/lazareva-mock02.webp",
